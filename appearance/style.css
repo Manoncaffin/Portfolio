@@ -1,0 +1,191 @@
+.loading {
+    padding-top: 200px;
+}
+
+#logoLoading img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#loader {
+    font-family: "Capriola";
+    font-size: 2vmax;
+    font-weight: 600;
+}
+
+/* header navbar */
+.navbar {
+    padding-top: 17px;
+}
+
+.logo {
+    width: 20vh;
+    height: auto;
+}
+
+.hover-logo {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover-logo:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.hover-text-container {
+    font-size: 23px;
+    transition: 0.3s ease-in-out;
+}
+
+.hover-text-container:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+/* homepage */
+.mainsection {
+    padding-top: 10vh;
+    padding-left: 0vh;
+    padding-right: 0vh;
+}
+
+.separator {
+    border-top: 1px solid black;
+    height: 14vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.separator-two {
+    height: 14vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    background-color: #e8edf0;
+    /* border-bottom: 1px solid black;  */
+    height: 77vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-inner {
+    margin: 0;
+    padding: 0;
+}
+
+#carousel-text {
+    user-select: none;
+    position: relative;
+    padding-left: 200px;
+}
+
+.arrow-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Boutons  */
+.outils {
+    padding-top: 10px;
+    padding-right: 20px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: black;
+  }
+
+
+
+/* infos */
+#contact {
+    display: flex;
+    margin-top: 95px;
+    padding-top: 200px;
+    padding-left: 200px;
+    height: 91.8vh;
+    border-top: 1px solid black;
+    background-color: #f8ec6f;
+    font-size: 20px;
+}
+
+.textInfos1 {
+    font-size: 1.7vw;
+}
+
+.textInfos2 {
+    font-size: 1.17vw;
+}
+
+.textInfos3 {
+    font-size: 1vw;
+}
+
+.popup {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    cursor: pointer;
+}
+
+.icons {
+    width: 4vh;
+    height: auto;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 0.8em;
+    background-color: rgb(232, 35, 212);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(191, 243, 100);
+    border-radius: 3px;
+}
+
+/* responsive tablette @media screen and (min-width: 600px) and (max-width: 1023px) */
+@media (max-width: 992px) {
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .icons {
+        max-height: 1;
+    }
+
+    .logo-container-md {
+        max-width: 20px;
+    }
+
+    .hover-text-container {
+        margin-top: 0;
+    }
+}
+
+/* responsive ordinateurs portables @media screen and (min-width: 1024px) and (max-width: 1439px)  */
+
+
+/* responsive ordinateurs de bureau @media screen and (min-width: 1440px) { ... } */
+
