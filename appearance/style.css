@@ -105,17 +105,19 @@
 
 
 /* Boutons  */
-.outils {
-    padding-top: 10px;
-    padding-right: 20px;
-    height: 40px;
+.bulles-langages {
+    height: 30px;
+    width: 90px;
+    margin-top: 15px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.outil {
     text-align: center;
     text-decoration: none;
-    border-radius: 4px;
-    background-color: black;
-  }
-
-
+}
 
 /* infos */
 #contact {

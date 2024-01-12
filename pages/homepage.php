@@ -192,72 +192,77 @@
                             <p class="m-0 pt-3">Titre : Au 46</p>
                             <p class="m-0">Commenditaire : Lycée Agricole et Viticole d'Amboise</p>
                         </div>
-                        <div class="container col-5 px-0">
+                        <div class="container-md col-4">
                             <p class="m-0 pt-3">Détails : Conception graphique réalisée avec Caroline Colas</p>
                             <p class="m-0">et les élèves de Terminale - 2021</p>
                         </div>
-                        <div class="outils">
-                        <div class="d-flex justify-content-center text-white">Dark</div>
-                        </div>
-                        </div>
-
-
-
-
-                    <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
-                        <div class=carousel-inner>
-                            <div class="carousel-item active">
-                                <div class="row images">
-                                    <div class="col-md-12 w-50">
-                                        <img src="../images/Logo_Constructions_Plurielles.jpg" class="img-fluid rounded-4" alt="Constructions Plurielles">
-                                    </div>
-                                </div>
+                        <div class="outils container-md col-2 d-flex justify-content-around">
+                            <div class="bulles-langages d-flex justify-content-center text-center">
+                                <div class="outil text-black d-flex justify-content-center align-items-center px-2">InDesign</div>
                             </div>
+                            <div class="bulles-langages d-flex justify-content-center text-center align-items-center">
+                                <div class="outil text-black">Illustrator</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                            <div class="carousel-item">
-                                <div class="row images">
-                                    <div class="col-md-12 w-50">
-                                        <img src="../images/Constructions_Plurielles_Spotify.png" class="img-fluid rounded-4" alt="Constructions Plurielles">
-                                    </div>
+
+
+                <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                    <div class=carousel-inner>
+                        <div class="carousel-item active">
+                            <div class="row images">
+                                <div class="col-md-12 w-50">
+                                    <img src="../images/Logo_Constructions_Plurielles.jpg" class="img-fluid rounded-4" alt="Constructions Plurielles">
                                 </div>
                             </div>
                         </div>
 
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
-                            </svg>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                            </svg>
-                        </button>
-                    </div>
-
-
-                    <div class="separator col-md-12">
-                        <div class="carousel-text d-flex h-100">
-                            <div class="carousel-pagination container-md col-2 px-5 pt-3 d-flex justify-content-center">
-                                <span id="current-slide-3">01</span>/<span id="total-slides-3">02</span>
-                            </div>
-
-
-                            <div class="container-md col-4 justify-content-start">
-                                <p class="m-0 pt-3">Titre : Constructions Pluri[elles]</p>
-                                <p class="m-0">Commanditaire : Oïkos</p>
-                            </div>
-                            <div class="container col-5 px-0">
-                                <p class="m-0 pt-3">Détails : Conception de l'identité visuelle du podcast de l'association Oïkos,</p>
-                                <p class="m-0">La Tour-de-Salvagny - 2022</p>
+                        <div class="carousel-item">
+                            <div class="row images">
+                                <div class="col-md-12 w-50">
+                                    <img src="../images/Constructions_Plurielles_Spotify.png" class="img-fluid rounded-4" alt="Constructions Plurielles">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="arrow-up">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-arrow-up" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
                         </svg>
-                    </a>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </button>
+                </div>
+
+
+                <div class="separator col-md-12">
+                    <div class="carousel-text d-flex h-100">
+                        <div class="carousel-pagination container-md col-2 px-5 pt-3 d-flex justify-content-center">
+                            <span id="current-slide-3">01</span>/<span id="total-slides-3">02</span>
+                        </div>
+
+
+                        <div class="container-md col-4 justify-content-start">
+                            <p class="m-0 pt-3">Titre : Constructions Pluri[elles]</p>
+                            <p class="m-0">Commanditaire : Oïkos</p>
+                        </div>
+                        <div class="container col-5 px-0">
+                            <p class="m-0 pt-3">Détails : Conception de l'identité visuelle du podcast de l'association Oïkos,</p>
+                            <p class="m-0">La Tour-de-Salvagny - 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="arrow-up">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+                    </svg>
+                </a>
             </section>
 
     </main>

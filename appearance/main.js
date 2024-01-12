@@ -1,27 +1,3 @@
-// loading
-const loader = document.querySelector("#loader");
-let load = 0;
-setInterval(function () {
-  loader.textContent = `${load} %`;
-  if (load < 100) {
-    load++;
-  } else {
-    setTimeout(function () {
-      load = 0;
-    }, 2000);
-    //-----------------------------------
-  }
-}, 50);
-
-// Redirection à la fin de l'animation en simulant une tâche longue
-  document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function() {
-      document.querySelector(".loading").style.display = "none";
-      window.location.href = "../pages/homepage.php";
-    }, 1500); 
-  });
-
-
 // code pour que le carousel ne défile pas tout seul 
 // document.addEventListener('DOMContentLoaded', function () {
 //     const carousel1 = new bootstrap.Carousel(document.getElementById('carousel1'), {
