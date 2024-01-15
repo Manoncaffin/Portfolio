@@ -93,11 +93,11 @@
                         <span id="current-slide-1">01</span>/<span id="total-slides-1">05</span>
                     </div>
 
-                    <div class="container-md col-4 justify-content-start">
+                    <div class="textHomepage container-md col-4 justify-content-start">
                         <p class="m-0 pt-3">Titre : Battements Telluriques</p>
                         <p class="m-0">Commenditaire : DRAC</p>
                     </div>
-                    <div class="container col-6 px-0">
+                    <div class="textHomepage container col-6 px-0">
                         <p class="m-0 pt-3">Détails : Scénographie et conception graphique réalisées avec Caroline Colas,</p>
                         <p class="m-0">résidence de production et exposition - 2021</p>
                     </div>
@@ -181,11 +181,11 @@
                         <span id="current-slide-2">01</span>/<span id="total-slides-2">07</span>
                     </div>
 
-                    <div class="container-md col-4 justify-content-start">
+                    <div class="textHomepage container-md col-4 justify-content-start">
                         <p class="m-0 pt-3">Titre : Au 46</p>
                         <p class="m-0">Commenditaire : Lycée Agricole et Viticole d'Amboise</p>
                     </div>
-                    <div class="container-md col-6">
+                    <div class="textHomepage container-md col-6">
                         <p class="m-0 pt-3">Détails : Conception graphique réalisée avec Caroline Colas</p>
                         <p class="m-0">et les élèves de Terminale - 2021</p>
                     </div>
@@ -227,16 +227,16 @@
 
             <div class="separator col-md-12">
                 <div class="carousel-text d-flex h-100">
-                    <div class="carousel-pagination container-md col-2 px-5 pt-3 d-flex justify-content-center">
+                    <div class="carousel-pagination container-md col-2 pt-3 d-flex justify-content-center">
                         <span id="current-slide-3">01</span>/<span id="total-slides-3">02</span>
                     </div>
 
 
-                    <div class="container-md col-4 justify-content-start">
+                    <div class="textHomepage container-md col-4 justify-content-start">
                         <p class="m-0 pt-3">Titre : Constructions Pluri[elles]</p>
                         <p class="m-0">Commanditaire : Oïkos</p>
                     </div>
-                    <div class="container col-6 px-0">
+                    <div class="textHomepage container col-6 px-0">
                         <p class="m-0 pt-3">Détails : Conception de l'identité visuelle du podcast de l'association Oïkos,</p>
                         <p class="m-0">La Tour-de-Salvagny - 2022</p>
                     </div>

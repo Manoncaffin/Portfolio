@@ -10,6 +10,7 @@
 
 #loader {
     font-family: "Capriola";
+    color: black;
     font-size: 2vmax;
     font-weight: 600;
 }
@@ -37,11 +38,13 @@
 }
 
 .hover-text-container {
+    font-family: "Aileron";
     font-size: 23px;
     transition: 0.3s ease-in-out;
 }
 
 .hover-text-container:hover {
+    font-family: "Aileron";
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
 }
@@ -62,6 +65,10 @@
 .separator-two {
     height: 14vh;
     background-color: rgb(255, 255, 255);
+}
+
+.textHomepage {
+    font-family: "Aileron";
 }
 
 .images {
@@ -92,6 +99,7 @@
     user-select: none;
     position: relative;
     padding-left: 200px;
+    font-family: "Aileron";
 }
 
 /* flèche qui disparait  */
@@ -124,7 +132,7 @@
 
 .bulles-langages {
     height: 30px;
-    width: 90px;
+    width: 120px;
     border: 1px solid;
     border-color: black;
     border-radius: 10px;
@@ -135,23 +143,18 @@
     display: flex;
     margin-top: 95px;
     padding-top: 200px;
-    padding-left: 200px;
+    padding-left: 100px;
     height: 88.8vh;
     border-top: 1px solid black;
     background-color: #f8ec6f;
 }
 
 .textInfos1 {
-    font-size: 1.5vw;
+    font-size: 1.9vw;
     font-family: "Aileron";
 }
 
 .textInfos2 {
-    font-size: 1.15vw;
-    font-family: "Aileron";
-}
-
-.textInfos3 {
     font-size: 1.3vw;
     font-family: "Aileron";
 }
@@ -191,31 +194,10 @@
 
 ::-webkit-scrollbar-thumb {
     background: rgb(191, 243, 100);
-    border-radius: 3px;
 }
 
 /* responsive mobile  */
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    #contact {
-        height: 90.1vh;
-    }
-
-    .textInfos1 {
-        font-size: 1.5vw;
-        font-family: "Aileron";
-    }
-
-    .textInfos2 {
-        font-size: 1.15vw;
-        font-family: "Aileron";
-    }
-
-    .textInfos3 {
-        font-size: 1.3vw;
-        font-family: "Aileron";
-    }
-
-}
+@media screen and (min-width: 320px) and (max-width: 480px) 
 
 
 /* responsive tablette @media screen and (min-width: 600px) and (max-width: 1023px) */
@@ -239,23 +221,7 @@
 }
 
 /* responsive ordinateurs portables  */
-@media screen and (min-width: 1024px) and (max-width: 1439px) {}
+@media screen and (min-width: 1024px) and (max-width: 1439px)
 
 /* responsive ordinateurs de bureau  */
-@media screen and (min-width: 1440px) {
-    #contact {
-        height: 91.1vh;
-    }
-
-    .textInfos1 {
-        font-size: 1.20vw;
-    }
-
-    .textInfos2 {
-        font-size: 1vw;
-    }
-
-    .textInfos3 {
-        font-size: 0.9vw;
-    }
-}
+@media screen and (min-width: 1440px) 
