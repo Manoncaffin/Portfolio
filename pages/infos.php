@@ -32,7 +32,7 @@
 
 <main>
 
-    <section id="contact" class="container-fluid m-0 pt-5 pl-2 d-flex justify-content-center slide-in" >
+    <section id="contact" class="container-fluid m-0 pt-5 pl-2 d-flex justify-content-center slide-in">
     <div id="infos"></div>
 
         <div class="col-md-5">

@@ -117,18 +117,17 @@
 }
 
 /* bulles infos langages et logiciels  */
-.bulles-langages {
-    height: 30px;
-    width: 90px;
-    margin-top: 15px;
-    border: 1px solid;
-    border-color: black;
-    border-radius: 10px;
-}
-
 .outil {
     text-align: center;
     text-decoration: none;
+}
+
+.bulles-langages {
+    height: 30px;
+    width: 90px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
 }
 
 /* infos */
