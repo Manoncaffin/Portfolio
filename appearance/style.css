@@ -70,7 +70,6 @@
     align-items: center;
     border-top: 1px solid black;
     background-color: #e8edf0;
-    /* border-bottom: 1px solid black;  */
     height: 77vh;
     margin: 0;
     padding: 0;
@@ -95,6 +94,7 @@
     padding-left: 200px;
 }
 
+/* flèche qui disparait  */
 .arrow-up {
     position: fixed;
     bottom: 20px;
@@ -103,8 +103,20 @@
     cursor: pointer;
 }
 
+#scrollToTop {
+    opacity: 1;
+    /* Pour s'assurer que l'icône est visible par défaut */
+    transition: opacity 0.5s;
+    /* Ajoutez une transition pour une animation en douceur */
+}
 
-/* Boutons  */
+#scrollToTop.hidden {
+    opacity: 0;
+    pointer-events: none;
+    /* Désactive les événements de souris sur l'élément caché */
+}
+
+/* bulles infos langages et logiciels  */
 .bulles-langages {
     height: 30px;
     width: 90px;
@@ -125,22 +137,24 @@
     margin-top: 95px;
     padding-top: 200px;
     padding-left: 200px;
-    height: 91.8vh;
+    height: 88.8vh;
     border-top: 1px solid black;
     background-color: #f8ec6f;
-    font-size: 20px;
 }
 
 .textInfos1 {
-    font-size: 1.7vw;
+    font-size: 1.5vw;
+    font-family: "Aileron";
 }
 
 .textInfos2 {
-    font-size: 1.17vw;
+    font-size: 1.15vw;
+    font-family: "Aileron";
 }
 
 .textInfos3 {
-    font-size: 1vw;
+    font-size: 1.3vw;
+    font-family: "Aileron";
 }
 
 .popup {
@@ -155,6 +169,21 @@
     height: auto;
 }
 
+/* défilement de la page du bas vers le haut */
+.slide-in {
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
 /* scrollbar */
 ::-webkit-scrollbar {
     width: 0.8em;
@@ -166,8 +195,32 @@
     border-radius: 3px;
 }
 
+/* responsive mobile  */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #contact {
+        height: 90.1vh;
+    }
+
+    .textInfos1 {
+        font-size: 1.5vw;
+        font-family: "Aileron";
+    }
+
+    .textInfos2 {
+        font-size: 1.15vw;
+        font-family: "Aileron";
+    }
+
+    .textInfos3 {
+        font-size: 1.3vw;
+        font-family: "Aileron";
+    }
+
+}
+
+
 /* responsive tablette @media screen and (min-width: 600px) and (max-width: 1023px) */
-@media (max-width: 992px) {
+@media screen and (min-width: 600px) and (max-width: 1023px) {
     .navbar {
         padding-top: 15px;
         padding-bottom: 15px;
@@ -186,8 +239,24 @@
     }
 }
 
-/* responsive ordinateurs portables @media screen and (min-width: 1024px) and (max-width: 1439px)  */
+/* responsive ordinateurs portables  */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {}
 
+/* responsive ordinateurs de bureau  */
+@media screen and (min-width: 1440px) {
+    #contact {
+        height: 91.1vh;
+    }
 
-/* responsive ordinateurs de bureau @media screen and (min-width: 1440px) { ... } */
+    .textInfos1 {
+        font-size: 1.20vw;
+    }
 
+    .textInfos2 {
+        font-size: 1vw;
+    }
+
+    .textInfos3 {
+        font-size: 0.9vw;
+    }
+}

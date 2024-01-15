@@ -32,7 +32,8 @@
 
 <main>
 
-    <section id="contact" class="container-fluid m-0">
+    <section id="contact" class="container-fluid m-0 pt-5 pl-2 d-flex justify-content-center slide-in" >
+    <div id="infos"></div>
 
         <div class="col-md-5">
             <div class="row align-items-center">
@@ -60,14 +61,15 @@
                 <a href="" class="textInfos1 text-black text-decoration-none">Curriculum vitae</a><br>
                 <a href="" class="textInfos1 text-black text-decoration-none">Portfolio PDF (en cours)</a>
                 <br>
-                <p class="textInfos3 pt-5 m-0 text-black">Crédits typographies : </p>
+                <p class="textInfos3 pt-5 m-0 text-black">Crédits typographies :</p>
+                <p class="textInfos3 m-0 text-black">Aileron regular, Sora Sagano.</p>
                 <br>
             </div>
         </div>
 
         <div class="container">
             <div class="col-md-9">
-                <p class="textInfos2 m-0 text-black">Designer graphique et espace de formation, je me forme actuellement au développement web au Garage404 basé à Saint-Étienne.</p>
+                <p class="textInfos2 m-0 text-black">Designer graphique et espace de formation, je me forme actuellement au développement web au Garage404 à Saint-Étienne.</p>
             </div>
         </div>
 
@@ -79,7 +81,7 @@
     </section>
 
 </main>
-<script src="../appearance/main.js"></script>
+<script src="../appearance/infos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
