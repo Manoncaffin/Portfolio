@@ -26,13 +26,21 @@
 }
 
 .hover-logo {
+    /* taille du logo sans le hover */
     -webkit-transform: scale(1);
     transform: scale(1);
+    /* rapidité du hover */
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 
+.logo-container-md {
+    padding-left: 110px;
+}
+
 .hover-logo:hover {
+    /* taille du logo avec le hover */
+    font-family: "Aileron";
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
 }
@@ -47,6 +55,10 @@
     font-family: "Aileron";
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
+}
+
+.infos {
+    padding-right: 110px;
 }
 
 /* homepage */
@@ -114,7 +126,7 @@
 #scrollToTop {
     opacity: 1;
     /* Pour s'assurer que l'icône est visible par défaut */
-    transition: opacity 0.5s;
+    transition: opacity 1.5s;
     /* Ajoutez une transition pour une animation en douceur */
 }
 
@@ -125,7 +137,7 @@
 }
 
 /* bulles infos langages et logiciels  */
-.outil {
+/* .outil {
     text-align: center;
     text-decoration: none;
 }
@@ -136,7 +148,7 @@
     border: 1px solid;
     border-color: black;
     border-radius: 10px;
-}
+} */
 
 /* infos */
 #contact {
@@ -144,7 +156,7 @@
     margin-top: 95px;
     padding-top: 200px;
     padding-left: 100px;
-    height: 88.8vh;
+    height: 91vh;
     border-top: 1px solid black;
     background-color: #f8ec6f;
 }
@@ -169,6 +181,11 @@
 .icons {
     width: 4vh;
     height: auto;
+}
+
+.icon {
+    width: auto;
+    height: 4vh;
 }
 
 /* défilement de la page du bas vers le haut */
@@ -221,7 +238,3 @@
 }
 
 /* responsive ordinateurs portables  */
-@media screen and (min-width: 1024px) and (max-width: 1439px)
-
-/* responsive ordinateurs de bureau  */
-@media screen and (min-width: 1440px) 

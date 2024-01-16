@@ -68,8 +68,8 @@
                     <p class="textInfos2 m-0 text-black">Designer graphique et espace de formation, je me forme actuellement au développement web au Garage404 à Saint-Étienne.</p>
                     <p class="textInfos2 m-0 text-black">Ayant baignée dans un cadre créatif, je souhaite trouver un stage qui puisse mêler le front-end et le back-end afin de solidifier les connaissances que j'ai acquises de part ma formation et mes expériences passées, mais également solidifier les connaissanes que j'apprends à acquérir en centre de formation.</p>
                     <div class="col-auto pt-4">
-                        <p class="textInfos2 m-0 text-black">Technologies : Html, Css, JavaScript, PHP, Symfony, My SQL</p>
-                        <p class="textInfos2 m-0 text-black">Logiciels : InDesign, Illustrator, Photoshop, Première</p>
+                        <p class="textInfos2 m-0 text-black">Technologies : Html, Css, Bootstrap, JavaScript, PHP, Symfony, GitHub, My SQL</p>
+                        <p class="textInfos2 m-0 text-black">Logiciels : InDesign, Illustrator, Photoshop, Figma, Première</p>
                     </div>
                     <p class="textInfos2 m-0 pt-4 text-black">Conception graphique et développement : Manon Caffin</p>
                     <p class="textInfos2 m-0 text-black">Photographies : © Manon Caffin - Caroline Colas</p>
@@ -90,9 +90,14 @@
             </div>
 
 
-            <div class="popup">
+            <!-- <div class="popup">
                 <a href="../pages/homepage.php"><button type="button" class="btn-close position-absolute bottom-0 d-flex align-items-end justify-content-end" aria-label="Close"></button></a>
-            </div>
+            </div> -->
+            <div class="popup">
+            <a href="../pages/homepage.php">
+            <img src="../images/close.png" alt="Close" class="icons btn-close position-absolute bottom-0 d-flex align-items-end justify-content-end">
+</a>
+</div>
 
         </section>
 
