@@ -12,20 +12,25 @@
 <body>
 
     <header>
+        <div id="arrow-up"></div>
+
         <nav class="navbar bg-white">
-            <div class="container-md justify-content-between align-items-center pt-4">
+
+            <div class="container-md col-6 d-flex justify-content-start align-items-center pt-4">
                 <a href="../pages/homepage.php">
-
-                    <div class="hover-logo">
-                        <div class="logo-container-md">
-                            <img src="../images/logo_manon_caffin_1.png" class="logo">
-                        </div>
+                <div class="hover-logo">
+                    <div class="logo-container-md">
+                        <img src="../images/logo_manon_caffin_1.png" class="logo" alt="Logotype"></a>
+                        <!-- <img src="../images/manoncaffin-logonoir.png" class="logo"> -->
                     </div>
+                </div>
+            </div>
 
-
-                    <div class="hover-text-container">
-                        <a href="../pages/infos.php" id="hover-text" class="text-black text-decoration-none">infos</a>
-                    </div>
+            <div class="infos container-md col-6 d-flex justify-content-end align-items-center pt-4">
+                <div class="hover-text-container">
+                    <a href="../pages/infos.php" id="infosLink" class="text-black text-decoration-none">infos</a>
+                </div>
+            </div>
             </div>
         </nav>
     </header>
@@ -41,7 +46,7 @@
                         <img src="../images/mailNoir.png" class="icons">
                     </div> -->
                 <div class="col-auto">
-                    <p class="textInfos1 m-0 text-black">caffinmanon@gmail.com</p>
+                    <p class="textInfos1 m-0 px-4 text-black">caffinmanon@gmail.com</p>
                 </div>
                 <!-- </div> -->
                 <!-- <div class="row align-items-center">
@@ -49,18 +54,24 @@
                         <img src="../images/bulleNoire.png" class="icons">
                     </div> -->
                 <div class="col-auto">
-                    <p class="textInfos1 m-0 text-black">+33 (0) 6 81 78 23 14</p>
+                    <p class="textInfos1 m-0 px-4 text-black">+33 (0) 6 81 78 23 14</p>
                 </div>
                 <!-- </div> -->
                 <div class="col-auto pt-4">
-                    <p class="textInfos1 m-0 text-black">graphisme</p>
-                    <p class="textInfos1 m-0 text-black">identité visuelle</p>
-                    <p class="textInfos1 m-0 text-black">développement web</p>
+                    <p class="textInfos1 m-0 px-4 text-black">graphisme</p>
+                    <p class="textInfos1 m-0 px-4 text-black">identité visuelle</p>
+                    <p class="textInfos1 m-0 px-4 text-black">développement web</p>
                 </div>
                 <div class="col-auto pt-5">
-                    <a href="" class="textInfos1 text-black text-decoration-none">Curriculum vitae</a><br>
-                    <a href="" class="textInfos1 text-black text-decoration-none">Portfolio PDF (en cours)</a>
+                    <a href="" class="textInfos1 px-4 text-black text-decoration-none">Curriculum vitae</a><br>
+                    <a href="" class="textInfos1 px-4 text-black text-decoration-none">Portfolio PDF (en cours)</a>
                 </div>
+                <!-- <div class="icons d-flex flex-column pt-3">
+                    <img src="../images/logo-linkdin.png">
+                </div>
+                <div class="icons d-flex flex-column pt-3">
+                    <img src="../images/GitHub-logo.png">
+                </div> -->
             </div>
 
             <div class="container-fluid">
@@ -75,30 +86,17 @@
                     <p class="textInfos2 m-0 text-black">Photographies : © Manon Caffin - Caroline Colas</p>
                     <p class="textInfos2 m-0 text-black">Typographie : © Sora Sagano, Aileron regular</p>
                     <p class="textInfos2 m-0 text-black">Aucune des images présentées sur ce site ne peut être reproduite sans autorisation préalable de ses auteurs.
-
-                    <!-- <div class="outils flex-column pt-3 d-flex">
-                        <div class="bulles-langages d-flex justify-content-center text-center">
-                            <div class="outil text-black d-flex align-items-center px-2">Technologies</div>
-                        </div>
-                        <div class="outils flex-column pt-3 d-flex">
-                        <div class="bulles-langages d-flex justify-content-center text-center align-items-center">
-                            <div class="outil text-black d-flex align-items-center px-2">Logiciels</div>
-                        </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
-
 
             <!-- <div class="popup">
                 <a href="../pages/homepage.php"><button type="button" class="btn-close position-absolute bottom-0 d-flex align-items-end justify-content-end" aria-label="Close"></button></a>
             </div> -->
             <div class="popup">
-            <a href="../pages/homepage.php">
-            <img src="../images/close.png" alt="Close" class="icons btn-close position-absolute bottom-0 d-flex align-items-end justify-content-end">
-</a>
-</div>
-
+                <a href="../pages/homepage.php">
+                    <img src="../images/close.png" alt="Close" class="icons btn-close position-absolute d-flex align-items-end justify-content-end">
+                </a>
+            </div>
         </section>
 
     </main>

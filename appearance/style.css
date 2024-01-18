@@ -18,10 +18,11 @@
 /* header navbar */
 .navbar {
     padding-top: 17px;
+    padding-bottom: 5px;
 }
 
 .logo {
-    width: 20vh;
+    width: 25vh;
     height: auto;
 }
 
@@ -47,14 +48,14 @@
 
 .hover-text-container {
     font-family: "Aileron";
-    font-size: 23px;
+    font-size: 28px;
     transition: 0.3s ease-in-out;
 }
 
 .hover-text-container:hover {
     font-family: "Aileron";
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
 }
 
 .infos {
@@ -97,6 +98,15 @@
     background-repeat: no-repeat;
 }
 
+/* texte additionnel */
+.textWithAdditional #boutonBefore {
+    display: none;
+}
+/* permet de ne pas afficher le boutonAfter au rafraichissement de la page  */
+.initial-state #boutonAfter {
+    display: none;
+}
+
 .carousel {
     margin: 0;
     padding: 0;
@@ -136,29 +146,16 @@
     /* Désactive les événements de souris sur l'élément caché */
 }
 
-/* bulles infos langages et logiciels  */
-/* .outil {
-    text-align: center;
-    text-decoration: none;
-}
-
-.bulles-langages {
-    height: 30px;
-    width: 120px;
-    border: 1px solid;
-    border-color: black;
-    border-radius: 10px;
-} */
-
 /* infos */
 #contact {
     display: flex;
     margin-top: 95px;
     padding-top: 200px;
     padding-left: 100px;
-    height: 91vh;
+    height: 90.6vh;
     border-top: 1px solid black;
-    background-color: #f8ec6f;
+    /* background-color: #f8ec6f; */
+    background: linear-gradient(white, #f8ec6f)
 }
 
 .textInfos1 {
@@ -218,23 +215,4 @@
 
 
 /* responsive tablette @media screen and (min-width: 600px) and (max-width: 1023px) */
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-    .navbar {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    .icons {
-        max-height: 1;
-    }
-
-    .logo-container-md {
-        max-width: 20px;
-    }
-
-    .hover-text-container {
-        margin-top: 0;
-    }
-}
-
-/* responsive ordinateurs portables  */
+/* @media screen and (min-width: 600px) and (max-width: 1023px) {} */
