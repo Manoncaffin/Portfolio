@@ -77,7 +77,7 @@
             <div class="container-fluid">
                 <div class="col-md-8">
                     <p class="textInfos2 m-0 text-black">Designer graphique et espace de formation, je me forme actuellement au développement web au Garage404 à Saint-Étienne.</p>
-                    <p class="textInfos2 m-0 text-black">Ayant baignée dans un cadre créatif, je souhaite trouver un stage qui puisse mêler le front-end et le back-end afin de solidifier les connaissances que j'ai acquises de part ma formation et mes expériences passées, mais également solidifier les connaissanes que j'apprends à acquérir en centre de formation.</p>
+                    <p class="textInfos2 m-0 text-black">Ayant évolué dans un cadre créatif, je souhaite trouver un stage qui puisse mêler le front-end et le back-end afin de solidifier les connaissances que j'ai acquises de par ma formation et mes expériences passées, mais également pour solidifier les connaissanes que j'apprends à acquérir en centre de formation.</p>
                     <div class="col-auto pt-4">
                         <p class="textInfos2 m-0 text-black">Technologies : Html, Css, Bootstrap, JavaScript, PHP, Symfony, GitHub, My SQL</p>
                         <p class="textInfos2 m-0 text-black">Logiciels : InDesign, Illustrator, Photoshop, Figma, Première</p>
