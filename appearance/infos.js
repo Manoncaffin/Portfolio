@@ -1,3 +1,4 @@
+// le background s'affiche par le bas 
 document.addEventListener('DOMContentLoaded', function() {
     const infos = document.getElementById('infos');
 

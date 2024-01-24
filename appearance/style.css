@@ -112,13 +112,6 @@ body {
     padding: 0;
 }
 
-/* .carousel-text {
-    user-select: none;
-    position: relative;
-    padding-left: 200px;
-    font-family: "Aileron";
-} */
-
 /* flèche qui disparait  */
 .arrow-up {
     position: fixed;
@@ -131,7 +124,7 @@ body {
 #scrollToTop {
     opacity: 1;
     /* Pour s'assurer que l'icône est visible par défaut */
-    transition: opacity 1.5s;
+    transition: opacity 1s;
     /* Ajoutez une transition pour une animation en douceur */
 }
 
@@ -149,8 +142,8 @@ body {
     padding-left: 100px;
     height: 90.6vh;
     border-top: 1px solid black;
-    /* background-color: #f8ec6f; */
-    background: linear-gradient(white, #f8ec6f)
+    background-color: #f7ea9c;
+    /* background: linear-gradient(white, #f8ec6f) */
 }
 
 .textInfos1 {
@@ -165,7 +158,7 @@ body {
 
 .popup {
     position: fixed;
-    bottom: 40px;
+    bottom: 80px;
     left: 50%;
     cursor: pointer;
 }

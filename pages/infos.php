@@ -46,7 +46,7 @@
                         <img src="../images/mailNoir.png" class="icons">
                     </div> -->
                 <div class="col-auto">
-                    <p class="textInfos1 m-0 px-4 text-black">caffinmanon@gmail.com</p>
+                    <a href="mailto:caffinmanon@gmail.com" class="textInfos1 m-0 px-4 text-decoration-none text-black">caffinmanon@gmail.com</a>
                 </div>
                 <!-- </div> -->
                 <!-- <div class="row align-items-center">
@@ -67,7 +67,7 @@
                     <a href="" class="textInfos1 px-4 text-black text-decoration-none">Portfolio PDF (en cours)</a>
                 </div>
                 <!-- <div class="icons d-flex flex-column pt-3">
-                    <img src="../images/logo-linkdin.png">
+                    <a href="https://www.linkedin.com/in/manon-caffin-84192a198/"><img src="../images/logo-linkdin.png" alt="Profil de Manon"></a>
                 </div>
                 <div class="icons d-flex flex-column pt-3">
                     <img src="../images/GitHub-logo.png">
