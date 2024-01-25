@@ -95,15 +95,16 @@
                 </button>
             </div>
 
-            <div class="separator col-md-12">
-                <div class="container d-flex m-0">
+            <!-- separator ok -->
+            <div class="separator d-flex justify-content-center">
+                <div class="d-flex m-0 row container">
 
                     <div class="carousel-pagination col-md-2 px-5 pt-3 d-flex justify-content-center">
                         <span id="current-slide-1">01</span>/<span id="total-slides-1">05</span>
                     </div>
 
                     <!-- texte initial -->
-                    <div class="initial-state d-flex justify-content-start">
+                    <div class="initial-state d-flex justify-content-around col row">
                         <div class="textHomepage col-md-3">
                             <p class="initialText m-0 pt-3">Titre : Battements Telluriques</p>
                             <p class="initialText m-0">Commenditaire : DRAC</p>
@@ -116,10 +117,10 @@
                     </div>
 
                     <!-- texte additionnel -->
-                    <div class="additionalText" style="display: none;">
-                        <p class="additionalText justify-content-start m-0 pt-3">Détails : Scénographie articulant des sculptures, une édition et l'installation d'un rideau suspendu.</p>
-                        <p class="additionalText justify-content-start m-0">Cette exposition s'est tenue au sein des locaux du Lycée Agricole d'Amboise.</p>
-                        <p class="additionalText justify-content-start m-0"> Logiciels : Photoshop, Illustrator, InDesign</p>
+                    <div class="additionalText d-none col row">
+                        <p class="m-0 pt-3">Détails : Scénographie articulant des sculptures, une édition et l'installation d'un rideau suspendu.</p>
+                        <p class="m-0">Cette exposition s'est tenue au sein des locaux du Lycée Agricole d'Amboise.</p>
+                        <p class="m-0"> Logiciels : Photoshop, Illustrator, InDesign</p>
                     </div>
 
                     <!-- bouton affichage texte after -->
@@ -361,41 +362,43 @@
                 });
 
                 // Sélectionnez les éléments par leur ID
-                const boutonBefore = document.getElementById('boutonBefore');
-                const boutonAfter = document.getElementById('boutonAfter');
-                // const initialText = document.querySelectorAll('.initialText');
-                const initialState = document.querySelector('.initial-state');
-                const additionalText = document.querySelectorAll('.additionalText');
+                const boutonBefores = document.querySelectorAll('#boutonBefore');
+                const boutonAfters = document.querySelectorAll('#boutonAfter');
 
-                // Ajoutez un gestionnaire d'événements pour le clic sur le boutonBefore
-                boutonBefore.addEventListener('click', function() {
-                    // Masquez le texte initial
-                    initialState.classList.remove('d-flex');
-                    initialState.classList.add('d-none');
-                    // Affichez le texte supplémentaire
-                    additionalText.forEach(element => {
-                        element.style.display = 'block';
-                    });
-                    // Cachez le boutonBefore
-                    boutonBefore.style.display = 'none';
-                    // Affichez le boutonAfter
-                    boutonAfter.style.display = 'block';
-                });
+                boutonBefores.forEach((boutonBefore) => {
+                    boutonBefore.addEventListener('click', function(event) {
+                        let initialState = event.target.parentNode.parentNode.children[1];
+                        let additionnalText = event.target.parentNode.parentNode.children[2];
+                        
+                        initialState.classList.remove("d-flex");
+                        initialState.classList.add("d-none");
 
-                // Ajoutez un gestionnaire d'événements pour le clic sur le boutonAfter
-                boutonAfter.addEventListener('click', function() {
-                    // Affichez le texte initial
-                    initialState.classList.remove('d-none');
-                    initialState.classList.add('d-flex');
-                    // Masquez le texte supplémentaire
-                    additionalText.forEach(element => {
-                        element.style.display = 'none';
+                        additionnalText.classList.remove("d-none");
+                        additionnalText.classList.add("d-flex");
+                        // Cachez le boutonBefore
+                        boutonBefore.style.display = 'none';
+                        // Affichez le boutonAfter
+                        boutonAfter.style.display = 'block';
                     });
-                    // Cachez le boutonAfter
-                    boutonAfter.style.display = 'none';
-                    // Affichez le boutonBefore
-                    boutonBefore.style.display = 'block';
-                });
+                })
+
+                boutonAfters.forEach((boutonAfter) => {
+                    boutonAfter.addEventListener('click', function(event) {
+                        let additionnalText = event.target.parentNode.parentNode.parentNode.children[2];
+                        let initialState = event.target.parentNode.parentNode.parentNode.children[1];
+
+                        additionnalText.classList.remove("d-flex");
+                        additionnalText.classList.add("d-none");
+
+                        initialState.classList.remove("d-none");
+                        initialState.classList.add("d-flex");
+                        // Cachez le boutonBefore
+                        boutonBefore.style.display = 'block';
+                        // Affichez le boutonAfter
+                        boutonAfter.style.display = 'none';
+                    });
+                })
+               
             </script>
         </section>
     </main>
