@@ -65,6 +65,7 @@
                 <div class="col-auto pt-5">
                     <a href="" class="textInfos1 px-4 text-black text-decoration-none">Curriculum vitae</a><br>
                     <a href="" class="textInfos1 px-4 text-black text-decoration-none">Portfolio PDF (en cours)</a>
+                    <a href="https://www.linkedin.com/in/manon-caffin-84192a198/" class="textInfos1 px-4 text-black text-decoration-none">Linkedin</a>
                 </div>
                 <!-- <div class="icons d-flex flex-column pt-3">
                     <a href="https://www.linkedin.com/in/manon-caffin-84192a198/"><img src="../images/logo-linkdin.png" alt="Profil de Manon"></a>
@@ -82,10 +83,10 @@
                         <p class="textInfos2 m-0 text-black">Technologies : Html, Css, Bootstrap, JavaScript, PHP, Symfony, GitHub, My SQL</p>
                         <p class="textInfos2 m-0 text-black">Logiciels : InDesign, Illustrator, Photoshop, Figma, Première</p>
                     </div>
-                    <p class="textInfos2 m-0 pt-4 text-black">Conception graphique et développement : Manon Caffin</p>
-                    <p class="textInfos2 m-0 text-black">Photographies : © Manon Caffin - Caroline Colas</p>
-                    <p class="textInfos2 m-0 text-black">Typographie : © Sora Sagano, Aileron regular</p>
-                    <p class="textInfos2 m-0 text-black">Aucune des images présentées sur ce site ne peut être reproduite sans autorisation préalable de ses auteurs.
+                    <p class="textInfos3 m-0 pt-4 text-black">Conception graphique et développement : Manon Caffin</p>
+                    <p class="textInfos3 m-0 text-black">Photographies : © Manon Caffin - Caroline Colas</p>
+                    <p class="textInfos3 m-0 text-black">Typographie : © Sora Sagano, Aileron regular</p>
+                    <p class="textInfos3 m-0 text-black">Aucune des images présentées sur ce site ne peut être reproduite sans autorisation préalable de ses auteurs.
                 </div>
             </div>
 

@@ -19,6 +19,7 @@
 .navbar {
     padding-top: 17px;
     padding-bottom: 5px;
+    border-bottom: 1px solid black;
 }
 
 .logo {
@@ -64,6 +65,7 @@
 
 body {
     font-family: "Aileron";
+    font-size: 14px;
 }
 
 /* homepage */
@@ -76,7 +78,7 @@ body {
 .separator {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    height: 14vh;
+    height: 84px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -112,6 +114,10 @@ body {
     padding: 0;
 }
 
+.additionalText {
+    padding-left: 65px;
+}
+
 /* flèche qui disparait  */
 .arrow-up {
     position: fixed;
@@ -141,7 +147,7 @@ body {
     padding-top: 200px;
     padding-left: 100px;
     height: 90.6vh;
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
     background-color: #f7ea9c;
     /* background: linear-gradient(white, #f8ec6f) */
 }
@@ -153,6 +159,11 @@ body {
 
 .textInfos2 {
     font-size: 1.3vw;
+    font-family: "Aileron";
+}
+
+.textInfos3 {
+    font-size: 1vw;
     font-family: "Aileron";
 }
 
@@ -171,6 +182,11 @@ body {
 .icon {
     width: auto;
     height: 4vh;
+}
+
+.iconsPlusMoins {
+    width: 6vh;
+    height: auto;
 }
 
 /* défilement de la page du bas vers le haut */
