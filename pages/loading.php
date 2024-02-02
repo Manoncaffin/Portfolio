@@ -14,7 +14,7 @@
     <main>
         <section class="loading container-md col-4 d-flex justify-content-center flex-column text-center">
             <div id="logoLoading">
-                <img src="../images/logo_manon_caffin_1.png" alt="Logo Manon Caffin">
+                <h1>manon caffin</h1>  
             </div>
             <div id="loader">00 %</div>
         </section>
