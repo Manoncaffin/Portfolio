@@ -22,15 +22,19 @@ document.addEventListener('DOMContentLoaded', function() {
 const carousel1 = new bootstrap.Carousel(document.getElementById('carousel1'), {
     ride: false
 });
-
 const carousel2 = new bootstrap.Carousel(document.getElementById('carousel2'), {
     ride: false
 });
-
 const carousel3 = new bootstrap.Carousel(document.getElementById('carousel3'), {
     ride: false
 });
 const carousel4 = new bootstrap.Carousel(document.getElementById('carousel4'), {
+    ride: false
+});
+const carousel5 = new bootstrap.Carousel(document.getElementById('carousel5'), {
+    ride: false
+});
+const carousel6 = new bootstrap.Carousel(document.getElementById('carousel6'), {
     ride: false
 });
 
