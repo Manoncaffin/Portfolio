@@ -197,14 +197,14 @@
                 <div class="d-flex m-0 row container-fluid">
 
                     <div class="carousel-pagination col-md-2 px-5 pt-3 d-flex justify-content-center">
-                        <span id="current-slide-1">01</span>/<span id="total-slides-1">05</span>
+                        <span id="current-slide-2">01</span>/<span id="total-slides-2">05</span>
                     </div>
 
                     <!-- texte initial -->
                     <div class="initial-state d-flex justify-content-around col row">
                         <div class="textHomepage col-md-3 px-0">
                             <p class="initialText m-0 pt-3"><strong>Au 46</p></strong>
-                            <p class="initialText m-0">Commenditaire : Lycée Agricole et Viticole d'Amboise</p>
+                            <p class="initialText m-0">Commenditaire : Lycée Agricole d'Amboise</p>
                         </div>
 
                         <div class="textHomepage col-md-6 px-0">
@@ -299,7 +299,7 @@
             <div class="separator d-flex justify-content-center">
                 <div class="d-flex m-0 row container-fluid">
                     <div class="carousel-pagination col-md-2 px-5 pt-3 d-flex justify-content-center">
-                        <span id="current-slide-3">01</span>/<span id="total-slides-3">01</span>
+                        <span id="current-slide-4">01</span>/<span id="total-slides-4">01</span>
                     </div>
 
                     <div class="initial-state d-flex justify-content-around col row">
@@ -308,7 +308,7 @@
                             <p class="initialText m-0">Garage404, exercice de formation</p>
                         </div>
                         <div class="textHomepage col-6 px-0">
-                            <p class="initialText m-0 pt-3">Reproduction d'une maquette de site web - 2023<a href=""> [Voir]</a></p>
+                            <p class="initialText m-0 pt-3">Reproduction d'une maquette de site web - 2023 <a href="">[Voir]</a></p>
                             <p class="m-0">Maquette, web - Html, CSS</p>
                         </div>
                         <!-- Ajouter texte additionnel -->
@@ -342,7 +342,7 @@
             <div class="separator d-flex justify-content-center">
                 <div class="d-flex m-0 row container-fluid">
                     <div class="carousel-pagination col-md-2 px-5 pt-3 d-flex justify-content-center">
-                        <span id="current-slide-3">01</span>/<span id="total-slides-3">01</span>
+                        <span id="current-slide-5">01</span>/<span id="total-slides-5">01</span>
                     </div>
 
 
@@ -352,7 +352,7 @@
                             <p class="initialText m-0">Garage404, exercice de formation</p>
                         </div>
                         <div class="textHomepage col-6 px-0">
-                            <p class="initialText m-0 pt-3">Reproduction d'un drum pad - 2023<a href=""> [Voir]</a></p>
+                            <p class="initialText m-0 pt-3">Reproduction d'un drum pad - 2023 <a href="">[Voir]</a></p>
                             <p class="m-0">Web - Html, CSS, Javascript</a>
                         </div>
                         <!-- Ajouter texte additionnel
@@ -388,7 +388,7 @@
             <div class="separator d-flex justify-content-center">
                 <div class="d-flex m-0 row container-fluid">
                     <div class="carousel-pagination col-md-2 px-5 pt-3 d-flex justify-content-center">
-                        <span id="current-slide-3">01</span>/<span id="total-slides-3">01</span>
+                        <span id="current-slide-6">01</span>/<span id="total-slides-6">01</span>
                     </div>
 
 
@@ -398,7 +398,7 @@
                             <p class="initialText m-0">Garage404, exercice de formation</p>
                         </div>
                         <div class="textHomepage col-6 px-0">
-                            <p class="initialText m-0 pt-3">Animation d'une course - 2023<a href=""> [Voir]</a></p>
+                            <p class="initialText m-0 pt-3">Animation d'une course - 2023 <a href="">[Voir]</a></p>
                             <p class="m-0">Animation - Html, CSS</a>
                         </div>
                         <!-- Ajouter texte additionnel -->
@@ -409,43 +409,45 @@
 
 
         <script>
-            // Sélectionnez les éléments par leur ID
-            const boutonBefores = document.querySelectorAll('#boutonBefore');
-            const boutonAfters = document.querySelectorAll('#boutonAfter');
+// pagination carousels
+document.addEventListener('DOMContentLoaded', function() {
+    const carousels = document.querySelectorAll('.carousel');
 
-            boutonBefores.forEach((boutonBefore) => {
-                boutonBefore.addEventListener('click', function(event) {
-                    let initialState = event.target.parentNode.parentNode.children[1];
-                    let additionnalText = event.target.parentNode.parentNode.children[2];
+    carousels.forEach(function(carousel, index) {
+        carousel.addEventListener('slid.bs.carousel', function(event) {
+            const currentSlideElement = document.getElementById(`current-slide-${index + 1}`);
+            const totalSlidesElement = document.getElementById(`total-slides-${index + 1}`);
 
-                    initialState.classList.remove("d-flex");
-                    initialState.classList.add("d-none");
+            if (currentSlideElement && totalSlidesElement) {
+                const currentSlide = event.to + 1;
+                const totalSlides = carousel.querySelectorAll('.carousel-item').length;
 
-                    additionnalText.classList.remove("d-none");
-                    additionnalText.classList.add("d-flex");
-                    // Cachez le boutonBefore
-                    boutonBefore.style.display = 'none';
-                    // Affichez le boutonAfter
-                    boutonAfter.style.display = 'block';
-                });
-            })
+                currentSlideElement.textContent = currentSlide.toString().padStart(2, '0');
+                totalSlidesElement.textContent = totalSlides.toString().padStart(2, '0');
+            }
+        });
+    });
+});
 
-            boutonAfters.forEach((boutonAfter) => {
-                boutonAfter.addEventListener('click', function(event) {
-                    let additionnalText = event.target.parentNode.parentNode.parentNode.children[2];
-                    let initialState = event.target.parentNode.parentNode.parentNode.children[1];
-
-                    additionnalText.classList.remove("d-flex");
-                    additionnalText.classList.add("d-none");
-
-                    initialState.classList.remove("d-none");
-                    initialState.classList.add("d-flex");
-                    // Cachez le boutonBefore
-                    boutonBefore.style.display = 'block';
-                    // Affichez le boutonAfter
-                    boutonAfter.style.display = 'none';
-                });
-            })
+// code pour le non défilement automatique du carousel
+const carousel1 = new bootstrap.Carousel(document.getElementById('carousel1'), {
+    ride: false
+});
+const carousel2 = new bootstrap.Carousel(document.getElementById('carousel2'), {
+    ride: false
+});
+const carousel3 = new bootstrap.Carousel(document.getElementById('carousel3'), {
+    ride: false
+});
+const carousel4 = new bootstrap.Carousel(document.getElementById('carousel4'), {
+    ride: false
+});
+const carousel5 = new bootstrap.Carousel(document.getElementById('carousel5'), {
+    ride: false
+});
+const carousel6 = new bootstrap.Carousel(document.getElementById('carousel6'), {
+    ride: false
+});
         </script>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-5p8Fk9+P5CDu5PZfklO1R/hFUBn26Hb8jKlJ8A+2+L4=" crossorigin="anonymous"></script>
