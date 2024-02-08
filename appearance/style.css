@@ -30,6 +30,14 @@
     height: 80px;
 }
 
+.navbar-two {
+    padding-top: 17px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    background-color: rgba(255, 255, 255, 1);
+    height: 80px;
+}
+
 .hover-logo {
     font-family: "Capriola";
     font-size: 35px;
@@ -42,10 +50,6 @@
     transition: .3s ease-in-out;
 }
 
-.logo-container-md {
-    padding-left: 110px;
-}
-
 .hover-logo:hover {
     /* taille du logo avec le hover */
     font-family: "Capriola";
@@ -55,7 +59,7 @@
 
 .hover-text-container {
     font-family: "Aileron";
-    font-size: 28px;
+    font-size: 30px;
     transition: 0.3s ease-in-out;
 }
 
@@ -65,20 +69,15 @@
     transform: scale(1.7);
 }
 
-.infos {
-    padding-right: 110px;
-}
-
-
+/* homepage */
 body {
     font-family: "Aileron";
-    font-size: 14px;
+    font-size: 14.5px;
     min-width: 100vw;
     min-height: 100vh;
-
+    overflow-x: hidden;
 }
 
-/* homepage */
 .separator, .separator-two, .separator-top {
     height: 80px;
     background-color: rgb(255, 255, 255);
@@ -86,15 +85,12 @@ body {
 
 .separator {
     border-bottom: 1px solid black;  
+    border-top: 1px solid black;  
 }
 
-.separator-two {
+/* .separator-two {
     border-top: 1px solid black;
-}
-
-.textHomepage {
-    font-family: "Aileron";
-}
+} */
 
 .background-section {
     background-color: #e8edf0;
@@ -114,42 +110,46 @@ body {
     flex: 1;
 }
 
-.additionalText {
+/* .additionalText {
     padding-left: 65px;
-}
-
-/* flèche qui disparait  */
-/* .arrow-up {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    text-decoration: none;
-    cursor: pointer;
 } */
 
-#scrollToTop {
-    opacity: 1;
+/* #scrollToTop { */
+    /* opacity: 1; */
     /* Pour s'assurer que l'icône est visible par défaut */
-    transition: opacity 1s;
+    /* transition: opacity 1s; */
     /* Ajoutez une transition pour une animation en douceur */
-}
+/* } */
 
-#scrollToTop.hidden {
-    opacity: 0;
-    pointer-events: none;
+/* #scrollToTop.hidden { */
+    /* opacity: 0; */
+    /* pointer-events: none; */
     /* Désactive les événements de souris sur l'élément caché */
-}
+/* } */
 
 /* infos */
 #contact {
-    display: flex;
-    margin-top: 95px;
-    padding-top: 200px;
-    padding-left: 100px;
-    height: 90.6vh;
-    /* border-top: 1px solid black; */
+    /* jaune : */
     background-color: #f7ea9c;
-    /* background: linear-gradient(white, #f8ec6f) */
+    /* bleu foncé : */
+    /* background-color: rgba(22,79,163,255); */
+    /* bleu clair : */
+    /* background-color: rgba(39,102,172,255); */
+}
+
+/* .part-two {
+    float: left;
+    position: relative;
+} */
+
+#contact p {
+    /* color: white; */
+    color: black;
+}
+
+#contact a {
+    /* color: white; */
+    color: black;
 }
 
 .textInfos1 {
@@ -169,7 +169,7 @@ body {
 
 .popup {
     position: fixed;
-    bottom: 80px;
+    bottom: 60px;
     left: 50%;
     cursor: pointer;
 }
@@ -179,15 +179,10 @@ body {
     height: auto;
 }
 
-.icon {
+/* .icon {
     width: auto;
     height: 4vh;
-}
-
-.iconsPlusMoins {
-    width: 6vh;
-    height: auto;
-}
+} */
 
 /* défilement de la page du bas vers le haut */
 .slide-in {
