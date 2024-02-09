@@ -6,7 +6,15 @@
     padding-top: 200px;
 }
 
-#logoLoading{
+/* #logoLoading{
+    font-family: "Capriola";
+    font-size: 2vmax;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: black;
+} */
+
+#logoLoading {
     font-family: "Capriola";
     font-size: 2vmax;
     font-weight: 600;
@@ -21,20 +29,21 @@
     font-weight: 600;
 }
 
-/* header navbar */
+/* header navbar de l'index' */
 .navbar {
     padding-top: 17px;
     padding-bottom: 5px;
     border-bottom: 1px solid black;
     background-color: rgba(255, 255, 255, 0.5);
-    height: 80px;
+    height: 100px;
 }
 
+/* header navbar de la page infos */
 .navbar-two {
     padding-top: 17px;
     padding-bottom: 5px;
     border-bottom: 1px solid black;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.5);
     height: 80px;
 }
 
@@ -69,7 +78,7 @@
     transform: scale(1.7);
 }
 
-/* homepage */
+/* index */
 body {
     font-family: "Aileron";
     font-size: 14.5px;
@@ -78,8 +87,8 @@ body {
     overflow-x: hidden;
 }
 
-.separator, .separator-two, .separator-top {
-    height: 80px;
+.separator, .separator-top {
+    height: 100px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -88,12 +97,13 @@ body {
     border-top: 1px solid black;  
 }
 
-/* .separator-two {
-    border-top: 1px solid black;
-} */
-
 .background-section {
     background-color: #e8edf0;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 0.7;
+    width: 20%;
 }
 
 .carousel {
@@ -108,6 +118,15 @@ body {
 
 .carousel-size {
     flex: 1;
+}
+
+.icons {
+    width: 4.5vh;
+    height: auto;
+}
+
+.icons:hover {
+    box-shadow: 5px 5px 5px #f7ea9c;
 }
 
 /* .additionalText {
@@ -137,10 +156,9 @@ body {
     /* background-color: rgba(39,102,172,255); */
 }
 
-/* .part-two {
-    float: left;
-    position: relative;
-} */
+.textTotal {
+    margin-top: 135px;
+}
 
 #contact p {
     /* color: white; */
@@ -174,16 +192,6 @@ body {
     cursor: pointer;
 }
 
-.icons {
-    width: 4vh;
-    height: auto;
-}
-
-/* .icon {
-    width: auto;
-    height: 4vh;
-} */
-
 /* défilement de la page du bas vers le haut */
 .slide-in {
     animation: slideIn 0.5s ease-out;
@@ -208,6 +216,82 @@ body {
 ::-webkit-scrollbar-thumb {
     background: rgb(191, 243, 100);
 }
+
+/* à revoir */
+@media (max-width: 767px) {
+.textHomepage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 11px;
+}
+
+.carousel-pagination {
+    font-size: 11px;
+    visibility: hidden;
+}
+
+/* .background-section {
+    background-color: hidden;
+} */
+
+/* .separator {
+    visibility: hidden
+} */
+
+/* PARTIE OK */
+.icons {
+    padding-top: 350px;
+    width: 3vh;
+}
+
+.icons:hover {
+    visibility: hidden
+}
+
+.textInfos1 {
+    font-size: 3.8vw;
+}
+
+.textInfos2 {
+    font-size: 2.5vw;
+}
+
+.textInfos3 {
+    font-size: 2vw;
+}
+
+.popup {
+    bottom: 30px;
+}
+
+.hover-logo {
+    font-size: 28px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.hover-logo:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.hover-text-container {
+    font-size: 28px;
+}
+
+.hover-text-container:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+}
+
+
+
+
+
+
+
 
 /* responsive mobile  */
 /* @media screen and (min-width: 320px) and (max-width: 480px)  */

@@ -16,6 +16,7 @@
             <div class="hover-logo">
                 <a href="../pages/index.php" id="logoReturnHomepage" class="text-black text-decoration-none">manon caffin</a>
             </div>
+
             <div class="hover-text-container">
                 <a href="../pages/infos.php" id="infosLink" class="text-black text-decoration-none ">infos</a>
             </div>
@@ -37,7 +38,7 @@
 
                     <div class="carousel-item h-100">
                         <div class="row h-100 d-flex justify-content-center">
-                            <div class="col-md-12 col-lg-6 d-flex justify-content-center align-items-center">
+                            <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
                                 <img src="../images/IMG_1075.jpg" class="rounded-4" alt="Battements Telluriques" width="100%" height="auto">
                             </div>
                         </div>
@@ -70,30 +71,31 @@
 
                 <button class="carousel-control-prev carousel-arrows" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
                     <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
-
+                    <!-- <img src="../images/arrow-l.svg" alt="Image précédente" class="icons"> -->
 
                 </button>
                 <button class="carousel-control-next carousel-arrows" type="button" data-bs-target="#carousel1" data-bs-slide="next">
                     <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
+                    <!-- <img src="../images/arrow-r.svg" alt="Image précédente" class="icons"> -->
                 </button>
             </div>
 
             <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid">
+                <div class="d-flex m-0 row container-fluid align-items-center">
 
-                    <div class="carousel-pagination col-md-2 px-5 pt-3 d-flex justify-content-center">
+                    <div class="carousel-pagination col-md-2 d-flex justify-content-center">
                         <span id="current-slide-1">01</span>/<span id="total-slides-1">05</span>
                     </div>
 
                     <!-- texte initial -->
                     <div class="initial-state d-flex justify-content-around col row">
-                        <div class="textHomepage col-md-3 px-0">
-                            <p class="initialText m-0 pt-3"><strong>Battements Telluriques</p></strong>
+                        <div class="textHomepage col-md-3">
+                            <p class="initialText m-0"><strong>Battements Telluriques</p></strong>
                             <p class="initialText m-0">Commenditaire : DRAC</p>
                         </div>
 
-                        <div class="textHomepage col-md-6 px-0">
-                            <p class="initialText m-0 pt-3">Résidence de production et exposition avec Caroline Colas - 2021</p>
+                        <div class="textHomepage col-md-6">
+                            <p class="initialText m-0">Résidence de production et exposition avec Caroline Colas - 2021</p>
                             <p class="initialText m-0">Print, scénographie, expérimentation, recherche</p>
                         </div>
                     </div>
@@ -194,21 +196,21 @@
             </div>
 
             <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid">
+                <div class="d-flex m-0 row container-fluid align-items-center">
 
-                    <div class="carousel-pagination col-md-2 px-5 pt-3 d-flex justify-content-center">
+                    <div class="carousel-pagination col-md-2 d-flex justify-content-center">
                         <span id="current-slide-2">01</span>/<span id="total-slides-2">05</span>
                     </div>
 
                     <!-- texte initial -->
                     <div class="initial-state d-flex justify-content-around col row">
-                        <div class="textHomepage col-md-3 px-0">
-                            <p class="initialText m-0 pt-3"><strong>Au 46</p></strong>
+                        <div class="textHomepage col-md-3">
+                            <p class="initialText m-0"><strong>Au 46</p></strong>
                             <p class="initialText m-0">Commenditaire : Lycée Agricole d'Amboise</p>
                         </div>
 
-                        <div class="textHomepage col-md-6 px-0">
-                            <p class="initialText m-0 pt-3">Conception graphique réalisée avec Caroline Colas et les élèves de Terminale - 2021</p>
+                        <div class="textHomepage col-md-6">
+                            <p class="initialText m-0">Conception graphique réalisée avec Caroline Colas et les élèves de Terminale - 2021</p>
                             <p class="initialText m-0">Print, édition, expérimentation, recherche</p>
                         </div>
                     </div>
@@ -253,19 +255,19 @@
             </div>
 
             <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid">
-                    <div class="carousel-pagination col-md-2 px-5 pt-3 d-flex justify-content-center">
+                <div class="d-flex m-0 row container-fluid align-items-center">
+                    <div class="carousel-pagination col-md-2 d-flex justify-content-center">
                         <span id="current-slide-3">01</span>/<span id="total-slides-3">02</span>
                     </div>
 
 
                     <div class="initial-state d-flex justify-content-around col row">
-                        <div class="textHomepage col-md-3 px-0">
-                            <p class="initialText m-0 pt-3"><strong>Constructions Pluri[elles]</p></strong>
+                        <div class="textHomepage col-md-3">
+                            <p class="initialText m-0"><strong>Constructions Pluri[elles]</p></strong>
                             <p class="initialText m-0">Commenditaire : Association Oïkos</p>
                         </div>
-                        <div class="textHomepage col-6 px-0">
-                            <p class="initialText m-0 pt-3">Conception de l'identité visuelle du podcast, La Tour-de-Salvagny - 2022</p>
+                        <div class="textHomepage col-6">
+                            <p class="initialText m-0">Conception de l'identité visuelle du podcast, La Tour-de-Salvagny - 2022</p>
                             <p class="initialText m-0">Identité visuelle</p>
                             <!-- Ajouter texte additionnel -->
                             <!-- Commanditaire : Oïkos -->
@@ -297,18 +299,18 @@
             </div>
 
             <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid">
-                    <div class="carousel-pagination col-md-2 px-5 pt-3 d-flex justify-content-center">
+                <div class="d-flex m-0 row container-fluid align-items-center">
+                    <div class="carousel-pagination col-md-2 d-flex justify-content-center">
                         <span id="current-slide-4">01</span>/<span id="total-slides-4">01</span>
                     </div>
 
                     <div class="initial-state d-flex justify-content-around col row">
-                        <div class="textHomepage col-md-3 px-0">
-                            <p class="initialText m-0 pt-3"><strong>In the hall of the Mountain King</p></strong>
+                        <div class="textHomepage col-md-3">
+                            <p class="initialText m-0"><strong>In the hall of the Mountain King</p></strong>
                             <p class="initialText m-0">Garage404, exercice de formation</p>
                         </div>
-                        <div class="textHomepage col-6 px-0">
-                            <p class="initialText m-0 pt-3">Reproduction d'une maquette de site web - 2023 <a href="">[Voir]</a></p>
+                        <div class="textHomepage col-6">
+                            <p class="initialText m-0">Reproduction d'une maquette de site web - 2023 <a href="">[Voir]</a></p>
                             <p class="m-0">Maquette, web - Html, CSS</p>
                         </div>
                         <!-- Ajouter texte additionnel -->
@@ -340,19 +342,19 @@
             </div>
 
             <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid">
-                    <div class="carousel-pagination col-md-2 px-5 pt-3 d-flex justify-content-center">
+                <div class="d-flex m-0 row container-fluid align-items-center">
+                    <div class="carousel-pagination col-md-2 d-flex justify-content-center">
                         <span id="current-slide-5">01</span>/<span id="total-slides-5">01</span>
                     </div>
 
 
                     <div class="initial-state d-flex justify-content-around col row">
-                        <div class="textHomepage col-md-3 px-0">
-                            <p class="initialText m-0 pt-3"><strong>Drum Pad</p></strong>
+                        <div class="textHomepage col-md-3">
+                            <p class="initialText m-0"><strong>Drum Pad</p></strong>
                             <p class="initialText m-0">Garage404, exercice de formation</p>
                         </div>
-                        <div class="textHomepage col-6 px-0">
-                            <p class="initialText m-0 pt-3">Reproduction d'un drum pad - 2023 <a href="">[Voir]</a></p>
+                        <div class="textHomepage col-6">
+                            <p class="initialText m-0">Reproduction d'un drum pad - 2023 <a href="">[Voir]</a></p>
                             <p class="m-0">Web - Html, CSS, Javascript</a>
                         </div>
                         <!-- Ajouter texte additionnel
@@ -366,19 +368,22 @@
                 <div class="carousel-inner h-100">
                     <div class="carousel-item active h-100">
                         <div class="row h-100">
-                            <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <video class="img-fluid rounded-4" width="700" height="460" autoplay loop muted>
+                            <!-- <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center"> -->
+                                <!-- <video class="img-fluid rounded-4" width="700" height="460" autoplay loop muted>
                                     <source src="../images/mario.mp4" alt="Mario">
-                                </video>
-                            </div>
+                                </video> -->
+                                <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
+                                    <video class="img-fluid rounded-4" style="max-width: 100%;" autoplay loop muted>
+                                        <source src="../images/course-mario.mp4" type="video/mp4" alt="Mario">
+                                    </video>
+                                </div>
+                            <!-- </div> -->
                         </div>
                     </div>
                 </div>
 
                 <button class="carousel-control-prev carousel-arrows" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
                     <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
-
-
                 </button>
                 <button class="carousel-control-next carousel-arrows" type="button" data-bs-target="#carousel6" data-bs-slide="next">
                     <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
@@ -386,19 +391,19 @@
             </div>
 
             <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid">
-                    <div class="carousel-pagination col-md-2 px-5 pt-3 d-flex justify-content-center">
+                <div class="d-flex m-0 row container-fluid align-items-center">
+                    <div class="carousel-pagination col-md-2 d-flex justify-content-center">
                         <span id="current-slide-6">01</span>/<span id="total-slides-6">01</span>
                     </div>
 
 
                     <div class="initial-state d-flex justify-content-around col row">
-                        <div class="textHomepage col-md-3 px-0">
-                            <p class="initialText m-0 pt-3"><strong>Mario</strong></p>
+                        <div class="textHomepage col-md-3">
+                            <p class="initialText m-0"><strong>Mario</strong></p>
                             <p class="initialText m-0">Garage404, exercice de formation</p>
                         </div>
-                        <div class="textHomepage col-6 px-0">
-                            <p class="initialText m-0 pt-3">Animation d'une course - 2023 <a href="">[Voir]</a></p>
+                        <div class="textHomepage col-6">
+                            <p class="initialText m-0">Animation d'une course - 2023 <a href="">[Voir]</a></p>
                             <p class="m-0">Animation - Html, CSS</a>
                         </div>
                         <!-- Ajouter texte additionnel -->
@@ -409,45 +414,46 @@
 
 
         <script>
-// pagination carousels
-document.addEventListener('DOMContentLoaded', function() {
-    const carousels = document.querySelectorAll('.carousel');
+            // pagination carousels
+            document.addEventListener('DOMContentLoaded', function() {
+                const carousels = document.querySelectorAll('.carousel');
 
-    carousels.forEach(function(carousel, index) {
-        carousel.addEventListener('slid.bs.carousel', function(event) {
-            const currentSlideElement = document.getElementById(`current-slide-${index + 1}`);
-            const totalSlidesElement = document.getElementById(`total-slides-${index + 1}`);
+                carousels.forEach(function(carousel, index) {
+                    carousel.addEventListener('slid.bs.carousel', function(event) {
+                        const currentSlideElement = document.getElementById(`current-slide-${index + 1}`);
+                        const totalSlidesElement = document.getElementById(`total-slides-${index + 1}`);
 
-            if (currentSlideElement && totalSlidesElement) {
-                const currentSlide = event.to + 1;
-                const totalSlides = carousel.querySelectorAll('.carousel-item').length;
+                        if (currentSlideElement && totalSlidesElement) {
+                            const currentSlide = event.to + 1;
+                            const totalSlides = carousel.querySelectorAll('.carousel-item').length;
 
-                currentSlideElement.textContent = currentSlide.toString().padStart(2, '0');
-                totalSlidesElement.textContent = totalSlides.toString().padStart(2, '0');
-            }
-        });
-    });
-});
+                            currentSlideElement.textContent = currentSlide.toString().padStart(2, '0');
+                            totalSlidesElement.textContent = totalSlides.toString().padStart(2, '0');
+                        }
+                    });
+                });
 
-// code pour le non défilement automatique du carousel
-const carousel1 = new bootstrap.Carousel(document.getElementById('carousel1'), {
-    ride: false
-});
-const carousel2 = new bootstrap.Carousel(document.getElementById('carousel2'), {
-    ride: false
-});
-const carousel3 = new bootstrap.Carousel(document.getElementById('carousel3'), {
-    ride: false
-});
-const carousel4 = new bootstrap.Carousel(document.getElementById('carousel4'), {
-    ride: false
-});
-const carousel5 = new bootstrap.Carousel(document.getElementById('carousel5'), {
-    ride: false
-});
-const carousel6 = new bootstrap.Carousel(document.getElementById('carousel6'), {
-    ride: false
-});
+
+                // code pour le non défilement automatique du carousel
+                const carousel1 = new bootstrap.Carousel(document.getElementById('carousel1'), {
+                    ride: false
+                });
+                const carousel2 = new bootstrap.Carousel(document.getElementById('carousel2'), {
+                    ride: false
+                });
+                const carousel3 = new bootstrap.Carousel(document.getElementById('carousel3'), {
+                    ride: false
+                });
+                const carousel4 = new bootstrap.Carousel(document.getElementById('carousel4'), {
+                    ride: false
+                });
+                const carousel5 = new bootstrap.Carousel(document.getElementById('carousel5'), {
+                    ride: false
+                });
+                const carousel6 = new bootstrap.Carousel(document.getElementById('carousel6'), {
+                    ride: false
+                });
+            });
         </script>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-5p8Fk9+P5CDu5PZfklO1R/hFUBn26Hb8jKlJ8A+2+L4=" crossorigin="anonymous"></script>

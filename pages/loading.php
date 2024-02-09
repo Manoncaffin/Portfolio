@@ -41,7 +41,7 @@
             // Redirection à la fin de l'animation en simulant une tâche longue
             setTimeout(function() {
                 document.querySelector(".loading").style.display = "none";
-                window.location.href = "../pages/homepage.php";
+                window.location.href = "../pages/index.php";
             }, 1500);
         });
     </script>
