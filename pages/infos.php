@@ -8,6 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
     <link rel="stylesheet" href="../appearance/style.css">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
     <title>manon caffin</title>
 </head>
 
@@ -28,33 +29,33 @@
         <section id="contact" class="d-flex vh-100 justify-content-center slide-in">
             <div class="contact-two container-md">
                 <div class="textTotal row">
-                    <div class="textInfos1 part-one col-md-4 col-12">
-                        <a href="mailto:caffinmanon@gmail.com" class="text-decoration-none">caffinmanon@gmail.com</a>
-                        <p class="pb-4">+33 (0) 6 81 78 23 14</p>
+                    <div class="part-one col-md-4 col-12">
+                        <a href="mailto:caffinmanon@gmail.com" class="text-mail">caffinmanon@gmail.com</a><br>
+                        <p class="text-tel pb-4">+33 (0) 6 81 78 23 14</p>
 
-                        <p class="mb-0">graphisme</p>
-                        <p class="mb-0">identité visuelle</p>
-                        <p class="pb-4">développement web</p>
+                        <p class="text-contact mb-0">graphisme</p>
+                        <p class="text-contact mb-0">identité visuelle</p>
+                        <p class="text-contact pb-4">développement web</p>
                         
-                        <a href="" class="textInfos1 text-decoration-none">GitHub</a><br>
-                        <a href="../images/CV_2024.pdf" class="textInfos1 text-decoration-none">Curriculum vitae</a><br>
-                        <a href="https://www.linkedin.com/in/manon-caffin-84192a198/" class="textInfos1 text-decoration-none">Linkedin</a>
+                        <a href="" class="text-link"><span>GitHub</a></span><br>
+                        <a href="../images/CV_2024.pdf" class="text-link-two"><span>Curriculum vitae</span></a><br>
+                        <a href="https://www.linkedin.com/in/manon-caffin-84192a198/" class="text-link"><span>Linkedin</a></span>
                     </div>
 
                     <div class="col-md-1 pt-4"></div>
 
-                    <div class="textInfos2 part-two col-md-7">
+                    <div class="text-about part-two col-md-7">
                         <p class="pb-4 m-0">Designer graphique et espace de formation, je me forme actuellement au développement web au Garage404 à Saint-Étienne.</p>
-                        <p class="m-0">Je souhaite trouver un stage qui puisse mêler le front-end et le back-end afin de solidifier les connaissances que j'ai acquises de par ma formation et mes expériences passées, mais également pour solidifier les connaissances que j'apprends à acquérir en centre de formation.</p>
+                        <p class="m-0">Je souhaite trouver un stage qui puisse mêler le front-end et le back-end afin de solidifier les connaissances que j'ai acquises de par ma formation et mes expériences passées, mais également et surtout pour solidifier les connaissances que j'apprends à acquérir en centre de formation.</p>
                         <div class="pt-4">
-                            <p class="mb-0">Technologies : Html, Css, Bootstrap, JavaScript, PHP, Symfony, GitHub, My SQL</p>
+                            <p class="mb-0">Technologies : Bootstrap, JavaScript, Symfony, My SQL</p>
                             <p class="mb-0 pb-4">Logiciels : InDesign, Illustrator, Photoshop, Figma, Première</p>
                         </div>
 
-                        <p class="textInfos3 m-0">Conception graphique et développement : Manon Caffin</p>
-                        <p class="textInfos3 m-0">Photographies : © Manon Caffin - Caroline Colas</p>
-                        <p class="textInfos3 m-0">Typographie : © Aileron par Sora Sagano, Capriola par Viktoriya Grabowska </p>
-                        <p class="textInfos3 m-0">Aucune des images présentées sur ce site ne peut être reproduite sans autorisation préalable de ses auteurs.</p>
+                        <p class="text-infos m-0">Conception graphique et développement : Manon Caffin</p>
+                        <p class="text-infos m-0">Photographies : © Manon Caffin - Caroline Colas</p>
+                        <p class="text-infos m-0">Typographie : © Aileron par Sora Sagano, Capriola par Viktoriya Grabowska </p>
+                        <p class="text-infos m-0">Aucune des images présentées sur ce site ne peut être reproduite sans autorisation préalable de ses auteurs.</p>
                     </div>
                 </div>
             </div>

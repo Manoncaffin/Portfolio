@@ -6,14 +6,6 @@
     padding-top: 200px;
 }
 
-/* #logoLoading{
-    font-family: "Capriola";
-    font-size: 2vmax;
-    font-weight: 600;
-    margin-bottom: 20px;
-    color: black;
-} */
-
 #logoLoading {
     font-family: "Capriola";
     font-size: 2vmax;
@@ -67,41 +59,60 @@
 }
 
 .hover-text-container {
-    font-family: "Aileron";
-    font-size: 30px;
+    font-family: "Larsseit";
+    font-size: 35px;
     transition: 0.3s ease-in-out;
 }
 
 .hover-text-container:hover {
-    font-family: "Aileron";
-    -webkit-transform: scale(1.7);
-    transform: scale(1.7);
+    font-family: "Larsseit";
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
 }
 
 /* index */
 body {
-    font-family: "Aileron";
-    font-size: 14.5px;
+    font-family: "Larsseit";
+    font-size: 18px;
     min-width: 100vw;
     min-height: 100vh;
     overflow-x: hidden;
 }
 
-.separator, .separator-top {
+.carousel-pagination {
+    font-size: 30px;
+}
+
+.titre {
+    font-family: "Capriola", bold;
+    font-size: 19px;
+    text-decoration: underline;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.titre:hover {
+    transform: rotate(-2deg);
+    color:rgb(35, 61, 232);
+}
+
+.separator,
+.separator-top {
     height: 100px;
     background-color: rgb(255, 255, 255);
 }
 
 .separator {
-    border-bottom: 1px solid black;  
-    border-top: 1px solid black;  
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .background-section {
     background-color: #e8edf0;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
     opacity: 0.7;
     width: 20%;
 }
@@ -129,27 +140,30 @@ body {
     box-shadow: 5px 5px 5px #f7ea9c;
 }
 
-/* .additionalText {
-    padding-left: 65px;
-} */
+.icon {
+    width: auto;
+    height: 4.5vh;
+}
 
-/* #scrollToTop { */
-    /* opacity: 1; */
-    /* Pour s'assurer que l'icône est visible par défaut */
-    /* transition: opacity 1s; */
-    /* Ajoutez une transition pour une animation en douceur */
-/* } */
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+opacity: 1;
+transition: opacity 1s;
+cursor: pointer;
+}
 
-/* #scrollToTop.hidden { */
-    /* opacity: 0; */
-    /* pointer-events: none; */
-    /* Désactive les événements de souris sur l'élément caché */
-/* } */
+#scrollToTop.hidden {
+opacity: 0;
+ pointer-events: none; 
+/* Désactive les événements de souris sur l'élément caché */
+ } 
 
 /* infos */
 #contact {
     /* jaune : */
-    background-color: #f7ea9c;
+    background-color:  #f7ea9c;
     /* bleu foncé : */
     /* background-color: rgba(22,79,163,255); */
     /* bleu clair : */
@@ -170,19 +184,89 @@ body {
     color: black;
 }
 
-.textInfos1 {
-    font-size: 1.9vw;
-    font-family: "Aileron";
+.text-contact {
+    font-size: 2vw;
+    font-family: "Larsseit";
 }
 
-.textInfos2 {
+.text-mail {
+    font-size: 2vw;
+    font-family: "Larsseit";
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.text-mail:hover {
+    transform: rotate(5deg);
+    text-decoration: underline;
+}
+
+.text-tel {
+    font-size: 2vw;
+    font-family: "Larsseit";
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.text-tel:hover {
+    transform: rotate(-5deg);
+    text-decoration: underline;
+}
+
+.text-link {
+    font-size: 2vw;
+    font-family: "Larsseit";
+    text-decoration: none;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.text-link span {
+    display: block;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.text-link:hover span {
+    transform: rotate(-5deg);
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.text-link-two {
+    font-size: 2vw;
+    font-family: "Larsseit";
+    text-decoration: none;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.text-link-two span {
+    display: block;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.text-link-two:hover span {
+    transform: rotate(5deg);
+}
+
+.text-link-two:hover {
+    text-decoration: underline;
+}
+
+.text-about {
     font-size: 1.3vw;
-    font-family: "Aileron";
+    font-family: "Larsseit";
 }
 
-.textInfos3 {
-    font-size: 1vw;
-    font-family: "Aileron";
+.text-infos {
+    font-size: 1.2vw;
+    font-family: "Larsseit";
 }
 
 .popup {
@@ -217,85 +301,172 @@ body {
     background: rgb(191, 243, 100);
 }
 
+.carousel-arrows-mobile {
+    display:none;
+}
+
+
+
 /* à revoir */
 @media (max-width: 767px) {
-.textHomepage {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 11px;
+    .textHomepage {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .carousels {
+        height: 500px!important;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+    }
+
+    .carousel-control-next {
+        position: relative;
+    }
+
+    .carousel-arrows-mobile {
+        display:block;
+    }
+
+
+    .carousel-pagination {
+        display: none!important;
+    }
+
+    .text-homepage-mobile {
+        display: none;
+    }
+
+    .project {
+        display: flex;
+        justify-content: center;
+    }
+
+    .background-section {
+    background-color: white;
+    }
+
+    .separator {
+        border-bottom: none;
+        border-top: none;
+    }
+
+    .carousel-arrows {
+        display: none;
+    }
+
+    .titre {
+        font-size: 11px;
+    }
+
+    .textHomepage {
+        font-size: 11px;
+    }
+
+    .icons {
+        width: 3vh;
+    }
+
+    .icons:hover {
+        visibility: hidden
+    }
+
+    .text-mail {
+        font-size: 3.8vw;
+    }
+
+    .text-tel {
+        font-size: 3.8vw;
+    }
+
+    .text-contact {
+        font-size: 3.8vw;
+    }
+
+    .text-link {
+        font-size: 3.8vw;
+    }
+
+    .text-link-two {
+        font-size: 3.8vw;
+    }
+
+    .text-about {
+        font-size: 2.5vw;
+    }
+
+    .text-infos {
+        font-size: 2vw;
+    }
+
+    .popup {
+        bottom: 30px;
+    }
+
+    .hover-logo {
+        font-size: 28px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .hover-logo:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .hover-text-container {
+        font-size: 28px;
+    }
+
+    .hover-text-container:hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
 }
 
-.carousel-pagination {
-    font-size: 11px;
-    visibility: hidden;
-}
+@media only screen and (min-width: 767px) and (max-width: 1199px) {
+    .titre {
+        font-size: 13px;
+    }
 
-/* .background-section {
-    background-color: hidden;
-} */
+    .textHomepage {
+        font-size: 11.5px;
+    }
 
-/* .separator {
-    visibility: hidden
-} */
+    .carousel-pagination {
+        font-size: 18px;
+    }
 
-/* PARTIE OK */
-.icons {
-    padding-top: 350px;
-    width: 3vh;
-}
+    .text-mail {
+        font-size: 2.3vw;
+    }
 
-.icons:hover {
-    visibility: hidden
-}
+    .text-tel {
+        font-size: 2.3vw;
+    }
 
-.textInfos1 {
-    font-size: 3.8vw;
-}
+    .text-contact {
+        font-size: 2.3vw;
+    }
 
-.textInfos2 {
-    font-size: 2.5vw;
-}
+    .text-link {
+        font-size: 2.3vw;
+    }
 
-.textInfos3 {
-    font-size: 2vw;
-}
+    .text-link-two {
+        font-size: 2.3vw;
+    }
 
-.popup {
-    bottom: 30px;
-}
+    .text-about {
+        font-size: 1.5vw;
+    }
 
-.hover-logo {
-    font-size: 28px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-}
+    .text-infos {
+        font-size: 1.2vw;
+    }
 
-.hover-logo:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.hover-text-container {
-    font-size: 28px;
-}
-
-.hover-text-container:hover {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}
-}
-
-
-
-
-
-
-
-
-/* responsive mobile  */
-/* @media screen and (min-width: 320px) and (max-width: 480px)  */
-
-
-/* responsive tablette @media screen and (min-width: 600px) and (max-width: 1023px) */
-/* @media screen and (min-width: 600px) and (max-width: 1023px) {} */
+  }

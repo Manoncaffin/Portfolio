@@ -7,9 +7,12 @@
     <title>manon caffin</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../appearance/style.css">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
+
+
 
     <header class="w-100 d-flex justify-content-center fixed-top navbar">
         <nav class="container-md col-12 d-flex justify-content-between">
@@ -71,12 +74,9 @@
 
                 <button class="carousel-control-prev carousel-arrows" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
                     <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
-                    <!-- <img src="../images/arrow-l.svg" alt="Image précédente" class="icons"> -->
-
                 </button>
                 <button class="carousel-control-next carousel-arrows" type="button" data-bs-target="#carousel1" data-bs-slide="next">
                     <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
-                    <!-- <img src="../images/arrow-r.svg" alt="Image précédente" class="icons"> -->
                 </button>
             </div>
 
@@ -87,40 +87,31 @@
                         <span id="current-slide-1">01</span>/<span id="total-slides-1">05</span>
                     </div>
 
-                    <!-- texte initial -->
-                    <div class="initial-state d-flex justify-content-around col row">
-                        <div class="textHomepage col-md-3">
-                            <p class="initialText m-0"><strong>Battements Telluriques</p></strong>
-                            <p class="initialText m-0">Commenditaire : DRAC</p>
+                    <div class="project align-items-center justify-content-center text-center col-md row">
+                        <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                            <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
+                        </button>
+
+                        <div class="col-md-3 col-6">
+                            <p class="titre m-0"><strong>Battements Telluriques</p></strong>
+                            <p class="textHomepage m-0">Commenditaire : DRAC</p>
+                            <p class="m-0 textHomepage carousel-arrows-mobile">Résidence de production et exposition avec Caroline Colas - 2021</p>
+                            <p class="m-0 textHomepage carousel-arrows-mobile">— Print, scénographie, expérimentation, recherche</p>
                         </div>
 
-                        <div class="textHomepage col-md-6">
-                            <p class="initialText m-0">Résidence de production et exposition avec Caroline Colas - 2021</p>
-                            <p class="initialText m-0">Print, scénographie, expérimentation, recherche</p>
+                        <!-- RESPONSIVE -->      
+                        <div class="col-md-6 text-homepage-mobile">
+                            <p class="m-0 textHomepage">Résidence de production et exposition avec Caroline Colas - 2021</p>
+                            <p class="m-0 textHomepage">— Print, scénographie, expérimentation, recherche</p>
                         </div>
+
+                        <button class="carousel-control-next carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                            <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
+                        </button>
+                        <!-- FIN DU RESPONSIVE -->
+
+                        <!-- <a href id="scrollToTop"><img src="../images/fleche-arrow-up-nb-fond.svg"  class="icon" title="Top"></a> -->
                     </div>
-
-                    <!-- texte additionnel -->
-                    <!-- <div class="additionalText d-none justify-content-around col row">
-                        <p class="m-0 pt-3">Détails : Scénographie articulant des sculptures, une édition et l'installation d'un rideau suspendu. Cette exposition s'est tenue au sein des locaux du Lycée Agricole d'Amboise.</p>
-                        <p class="m-0 pt-0">Commenditaire : DRAC</p>
-                    </div> -->
-
-                    <!-- bouton affichage texte after -->
-                    <!-- <div class="col-md-1 px-0 pt-4 m-0" id="boutonBefore"> -->
-                    <!-- <img src="../images/rondvide.png" class="iconsPlusMoins"> -->
-                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" viewBox="0 0 16 16">
-                            <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
-                        </svg> -->
-                    <!-- </div> -->
-
-                    <!-- bouton affichage texte after -->
-                    <!-- <div class="col-md-1 px-0 pt-4 m-0" id="boutonAfter" style="display: none;"> -->
-                    <!-- <img src="../images/rondplein.png" class="iconsPlusMoins"> -->
-                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" viewBox="0 0 16 16">
-                            <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
-                        </svg> -->
-                    <!-- </div> -->
                 </div>
             </div>
         </section>
@@ -187,8 +178,6 @@
 
                 <button class="carousel-control-prev carousel-arrows" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
                     <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
-
-
                 </button>
                 <button class="carousel-control-next carousel-arrows" type="button" data-bs-target="#carousel2" data-bs-slide="next">
                     <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
@@ -198,28 +187,33 @@
             <div class="separator d-flex justify-content-center">
                 <div class="d-flex m-0 row container-fluid align-items-center">
 
-                    <div class="carousel-pagination col-md-2 d-flex justify-content-center">
+                    <div class="textHomepage carousel-pagination col-md-2 d-flex justify-content-center">
                         <span id="current-slide-2">01</span>/<span id="total-slides-2">05</span>
                     </div>
 
                     <!-- texte initial -->
+
                     <div class="initial-state d-flex justify-content-around col row">
-                        <div class="textHomepage col-md-3">
-                            <p class="initialText m-0"><strong>Au 46</p></strong>
-                            <p class="initialText m-0">Commenditaire : Lycée Agricole d'Amboise</p>
+
+                        <button class="carousel-control-prev carousel-arrows-mobile" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                            <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
+                        </button>
+
+                        <div class="col-md-3">
+                            <p class="titre m-0"><strong>Au 46</p></strong>
+                            <p class="textHomepage m-0">Commenditaire : Lycée Agricole d'Amboise</p>
                         </div>
 
                         <div class="textHomepage col-md-6">
-                            <p class="initialText m-0">Conception graphique réalisée avec Caroline Colas et les élèves de Terminale - 2021</p>
-                            <p class="initialText m-0">Print, édition, expérimentation, recherche</p>
+                            <p class="m-0">Conception graphique réalisée avec Caroline Colas et les élèves de Terminale - 2021</p>
+                            <p class="m-0">— Print, édition, expérimentation, recherche</p>
                         </div>
                     </div>
 
-                    <!-- texte additionnel -->
-                    <div class="additionalText d-none justify-content-around col row">
-                        <p class="m-0 pt-3"></p>
-                        <p class="m-0 pt-0"></p>
-                    </div>
+                    <button class="carousel-control-next carousel-arrows-mobile" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                        <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
+                    </button>
+
                 </div>
             </div>
         </section>
@@ -262,15 +256,13 @@
 
 
                     <div class="initial-state d-flex justify-content-around col row">
-                        <div class="textHomepage col-md-3">
-                            <p class="initialText m-0"><strong>Constructions Pluri[elles]</p></strong>
-                            <p class="initialText m-0">Commenditaire : Association Oïkos</p>
+                        <div class="col-md-3">
+                            <p class="titre m-0"><strong>Constructions Pluri[elles]</p></strong>
+                            <p class="textHomepage m-0">Commenditaire : Association Oïkos</p>
                         </div>
                         <div class="textHomepage col-6">
-                            <p class="initialText m-0">Conception de l'identité visuelle du podcast, La Tour-de-Salvagny - 2022</p>
-                            <p class="initialText m-0">Identité visuelle</p>
-                            <!-- Ajouter texte additionnel -->
-                            <!-- Commanditaire : Oïkos -->
+                            <p class="m-0">Conception de l'identité visuelle du podcast, La Tour-de-Salvagny - 2022</p>
+                            <p class="m-0">— Identité visuelle</p>
                         </div>
                     </div>
                 </div>
@@ -305,16 +297,14 @@
                     </div>
 
                     <div class="initial-state d-flex justify-content-around col row">
-                        <div class="textHomepage col-md-3">
-                            <p class="initialText m-0"><strong>In the hall of the Mountain King</p></strong>
-                            <p class="initialText m-0">Garage404, exercice de formation</p>
+                        <div class="col-md-3">
+                            <p class="titre m-0"><strong>In the hall of the Mountain King</p></strong>
+                            <p class="textHomepage m-0">Garage404, exercice de formation</p>
                         </div>
                         <div class="textHomepage col-6">
-                            <p class="initialText m-0">Reproduction d'une maquette de site web - 2023 <a href="">[Voir]</a></p>
-                            <p class="m-0">Maquette, web - Html, CSS</p>
+                            <p class="m-0">Reproduction d'une maquette de site web - 2023 <a href="" class="text-black">[Voir]</a></p>
+                            <p class="m-0">— Maquette, web - Html, CSS</p>
                         </div>
-                        <!-- Ajouter texte additionnel -->
-                        <!-- Commanditaire : Garage404, exercice -->
                     </div>
                 </div>
         </section>
@@ -343,22 +333,20 @@
 
             <div class="separator d-flex justify-content-center">
                 <div class="d-flex m-0 row container-fluid align-items-center">
-                    <div class="carousel-pagination col-md-2 d-flex justify-content-center">
+                    <div class="textHomepage carousel-pagination col-md-2 d-flex justify-content-center">
                         <span id="current-slide-5">01</span>/<span id="total-slides-5">01</span>
                     </div>
 
 
                     <div class="initial-state d-flex justify-content-around col row">
-                        <div class="textHomepage col-md-3">
-                            <p class="initialText m-0"><strong>Drum Pad</p></strong>
-                            <p class="initialText m-0">Garage404, exercice de formation</p>
+                        <div class="col-md-3">
+                            <p class="titre m-0"><strong>Drum Pad</p></strong>
+                            <p class="textHomepage m-0">Garage404, exercice de formation</p>
                         </div>
                         <div class="textHomepage col-6">
-                            <p class="initialText m-0">Reproduction d'un drum pad - 2023 <a href="">[Voir]</a></p>
-                            <p class="m-0">Web - Html, CSS, Javascript</a>
+                            <p class="m-0">Reproduction d'un drum pad - 2023 <a href="" class="text-black">[Voir]</a></p>
+                            <p class="m-0">— Web - Html, CSS, Javascript</a>
                         </div>
-                        <!-- Ajouter texte additionnel
-                    Commanditaire : Garage404, exercice -->
                     </div>
                 </div>
         </section>
@@ -368,48 +356,40 @@
                 <div class="carousel-inner h-100">
                     <div class="carousel-item active h-100">
                         <div class="row h-100">
-                            <!-- <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center"> -->
-                                <!-- <video class="img-fluid rounded-4" width="700" height="460" autoplay loop muted>
-                                    <source src="../images/mario.mp4" alt="Mario">
-                                </video> -->
-                                <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                    <video class="img-fluid rounded-4" style="max-width: 100%;" autoplay loop muted>
-                                        <source src="../images/course-mario.mp4" type="video/mp4" alt="Mario">
-                                    </video>
-                                </div>
-                            <!-- </div> -->
+                            <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
+                                <video class="img-fluid rounded-4" style="max-width: 100%;" autoplay loop muted>
+                                    <source src="../images/course-mario.mp4" type="video/mp4" alt="Mario">
+                                </video>
+                            </div>
                         </div>
                     </div>
+
+                    <button class="carousel-control-prev carousel-arrows" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+                        <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
+                    </button>
+                    <button class="carousel-control-next carousel-arrows" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+                        <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
+                    </button>
                 </div>
 
-                <button class="carousel-control-prev carousel-arrows" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
-                    <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
-                </button>
-                <button class="carousel-control-next carousel-arrows" type="button" data-bs-target="#carousel6" data-bs-slide="next">
-                    <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
-                </button>
-            </div>
-
-            <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid align-items-center">
-                    <div class="carousel-pagination col-md-2 d-flex justify-content-center">
-                        <span id="current-slide-6">01</span>/<span id="total-slides-6">01</span>
-                    </div>
-
-
-                    <div class="initial-state d-flex justify-content-around col row">
-                        <div class="textHomepage col-md-3">
-                            <p class="initialText m-0"><strong>Mario</strong></p>
-                            <p class="initialText m-0">Garage404, exercice de formation</p>
+                <div class="separator d-flex justify-content-center">
+                    <div class="d-flex m-0 row container-fluid align-items-center">
+                        <div class="carousel-pagination col-md-2 d-flex justify-content-center">
+                            <span id="current-slide-6">01</span>/<span id="total-slides-6">01</span>
                         </div>
-                        <div class="textHomepage col-6">
-                            <p class="initialText m-0">Animation d'une course - 2023 <a href="">[Voir]</a></p>
-                            <p class="m-0">Animation - Html, CSS</a>
+
+
+                        <div class="initial-state d-flex justify-content-around col row">
+                            <div class="col-md-3">
+                                <p class="titre m-0"><strong>Mario</strong></p>
+                                <p class="m-0">Garage404, exercice de formation</p>
+                            </div>
+                            <div class="textHomepage col-6">
+                                <p class="m-0">Animation d'une course - 2023 <a href="" class="text-black">[Voir]</a></p>
+                                <p class="m-0">— Animation - Html, CSS</a>
+                            </div>
                         </div>
-                        <!-- Ajouter texte additionnel -->
-                        <!-- Commanditaire : Garage404, exercice -->
                     </div>
-                </div>
         </section>
 
 
