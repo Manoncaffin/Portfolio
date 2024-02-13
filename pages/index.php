@@ -12,8 +12,6 @@
 
 <body>
 
-
-
     <header class="w-100 d-flex justify-content-center fixed-top navbar">
         <nav class="container-md col-12 d-flex justify-content-between">
             <div class="hover-logo">
@@ -88,10 +86,11 @@
                     </div>
 
                     <div class="project align-items-center justify-content-center text-center col-md row">
+                       <!-- BUTTON RESPONSIVE -->
                         <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
                             <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
                         </button>
-
+                        <!-- FIN RESPONSIVE -->
                         <div class="col-md-3 col-6">
                             <p class="titre m-0"><strong>Battements Telluriques</p></strong>
                             <p class="textHomepage m-0">Commenditaire : DRAC</p>

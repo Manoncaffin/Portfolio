@@ -80,7 +80,7 @@ body {
 }
 
 .carousel-pagination {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .titre {
@@ -93,7 +93,7 @@ body {
 
 .titre:hover {
     transform: rotate(-2deg);
-    color:rgb(35, 61, 232);
+    color: rgb(35, 94, 232);
 }
 
 .separator,
@@ -149,48 +149,41 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-opacity: 1;
-transition: opacity 1s;
-cursor: pointer;
+    opacity: 1;
+    transition: opacity 1s;
+    cursor: pointer;
 }
 
 #scrollToTop.hidden {
-opacity: 0;
- pointer-events: none; 
-/* Désactive les événements de souris sur l'élément caché */
- } 
+    opacity: 0;
+    pointer-events: none;
+    /* Désactive les événements de souris sur l'élément caché */
+}
 
 /* infos */
 #contact {
-    /* jaune : */
-    background-color:  #f7ea9c;
-    /* bleu foncé : */
-    /* background-color: rgba(22,79,163,255); */
-    /* bleu clair : */
-    /* background-color: rgba(39,102,172,255); */
+    background-color: #f7ea9c;
 }
 
 .textTotal {
-    margin-top: 135px;
+    margin-top: 130px;
 }
 
 #contact p {
-    /* color: white; */
     color: black;
 }
 
 #contact a {
-    /* color: white; */
     color: black;
 }
 
 .text-contact {
-    font-size: 2vw;
+    font-size: 2.1vw;
     font-family: "Larsseit";
 }
 
 .text-mail {
-    font-size: 2vw;
+    font-size: 2.1vw;
     font-family: "Larsseit";
     display: inline-block;
     text-decoration: none;
@@ -203,7 +196,7 @@ opacity: 0;
 }
 
 .text-tel {
-    font-size: 2vw;
+    font-size: 2.1vw;
     font-family: "Larsseit";
     display: inline-block;
     text-decoration: none;
@@ -216,7 +209,7 @@ opacity: 0;
 }
 
 .text-link {
-    font-size: 2vw;
+    font-size: 2.1vw;
     font-family: "Larsseit";
     text-decoration: none;
     display: inline-block;
@@ -238,7 +231,7 @@ opacity: 0;
 }
 
 .text-link-two {
-    font-size: 2vw;
+    font-size: 2.1vw;
     font-family: "Larsseit";
     text-decoration: none;
     display: inline-block;
@@ -265,7 +258,7 @@ opacity: 0;
 }
 
 .text-infos {
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-family: "Larsseit";
 }
 
@@ -302,7 +295,7 @@ opacity: 0;
 }
 
 .carousel-arrows-mobile {
-    display:none;
+    display: none;
 }
 
 
@@ -317,7 +310,7 @@ opacity: 0;
     }
 
     .carousels {
-        height: 500px!important;
+        height: 500px !important;
     }
 
     .carousel-control-prev {
@@ -329,12 +322,12 @@ opacity: 0;
     }
 
     .carousel-arrows-mobile {
-        display:block;
+        display: block;
     }
 
 
     .carousel-pagination {
-        display: none!important;
+        display: none !important;
     }
 
     .text-homepage-mobile {
@@ -347,7 +340,7 @@ opacity: 0;
     }
 
     .background-section {
-    background-color: white;
+        background-color: white;
     }
 
     .separator {
@@ -376,36 +369,38 @@ opacity: 0;
     }
 
     .text-mail {
-        font-size: 3.8vw;
+        font-size: 2.9vw;
     }
 
     .text-tel {
-        font-size: 3.8vw;
+        font-size: 2.9vw;
     }
 
     .text-contact {
-        font-size: 3.8vw;
+        font-size: 2.9vw;
     }
 
     .text-link {
-        font-size: 3.8vw;
+        font-size: 2.9vw;
     }
 
     .text-link-two {
-        font-size: 3.8vw;
+        font-size: 2.9vw;
     }
 
     .text-about {
-        font-size: 2.5vw;
+        font-size: 2.1vw;
     }
 
     .text-infos {
-        font-size: 2vw;
+        font-size: 1.8vw;
     }
 
-    .popup {
-        bottom: 30px;
-    }
+    /* .popup {
+            display: flex;
+            justify-content: end;
+        }
+    } */
 
     .hover-logo {
         font-size: 28px;
@@ -428,7 +423,7 @@ opacity: 0;
     }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
     .titre {
         font-size: 13px;
     }
@@ -468,5 +463,4 @@ opacity: 0;
     .text-infos {
         font-size: 1.2vw;
     }
-
-  }
+}
