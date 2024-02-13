@@ -85,7 +85,7 @@
                         <span id="current-slide-1">01</span>/<span id="total-slides-1">05</span>
                     </div>
 
-                    <div class="project align-items-center justify-content-center text-center col-md row">
+                    <div class="project align-items-center justify-content-center col-md row">
                        <!-- BUTTON RESPONSIVE -->
                         <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
                             <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
@@ -301,7 +301,7 @@
                             <p class="textHomepage m-0">Garage404, exercice de formation</p>
                         </div>
                         <div class="textHomepage col-6">
-                            <p class="m-0">Reproduction d'une maquette de site web - 2023 <a href="" class="text-black">[Voir]</a></p>
+                            <p class="m-0">Reproduction d'une maquette de site web - 2023 <a href="https://manon-mountains.projets.garage404.com/" class="text-black">[Voir]</a></p>
                             <p class="m-0">— Maquette, web - Html, CSS</p>
                         </div>
                     </div>
@@ -343,7 +343,7 @@
                             <p class="textHomepage m-0">Garage404, exercice de formation</p>
                         </div>
                         <div class="textHomepage col-6">
-                            <p class="m-0">Reproduction d'un drum pad - 2023 <a href="" class="text-black">[Voir]</a></p>
+                            <p class="m-0">Reproduction d'un drum pad - 2023 <a href="https://manon-drumpad.projets.garage404.com/" class="text-black">[Voir]</a></p>
                             <p class="m-0">— Web - Html, CSS, Javascript</a>
                         </div>
                     </div>
