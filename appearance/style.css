@@ -319,14 +319,18 @@ body {
         width: 400px!important;
     }
 
-    .titre strong {
-        margin-left: 17%;
+    .border-mobile {
+        border-bottom: solid 2px black;
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        margin-top: 20px;
     }
 
-    /* .carousels { */
-        /* height: 500px !important; */
-        /* margin-top: 1rem; */
-    /* } */
+    .carousels { 
+        height: 500px !important;
+        margin-top: 1rem;
+    }
 
     .carousel-control-prev {
         position: relative;
@@ -345,13 +349,19 @@ body {
     }
 
     .text-homepage-mobile {
-        display: none;
+        text-align: center;
     }
 
-    .project {
+    .text-homepage {
+        display: none; 
+    }
+
+  
+
+    /* .project {
         display: flex;
         justify-content: center;
-    }
+    } */
 
     .background-section {
         background-color: white;

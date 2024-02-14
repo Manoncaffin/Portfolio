@@ -91,15 +91,15 @@
                             <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
                         </button>
                         <!-- FIN RESPONSIVE -->
-                        <div class="col-md-3 col-6">
+                        <div class="col-md-3 col-7 text-homepage-mobile">
                             <p class="titre m-0"><strong>Battements Telluriques</p></strong>
                             <p class="textHomepage m-0">Commenditaire : DRAC</p>
-                            <p class="m-0 textHomepage carousel-arrows-mobile">Résidence de production et exposition avec Caroline Colas - 2021</p>
+                            <!-- <p class="m-0 textHomepage carousel-arrows-mobile">Résidence de production et exposition avec Caroline Colas - 2021</p> -->
                             <p class="m-0 textHomepage carousel-arrows-mobile">— Print, scénographie, expérimentation, recherche</p>
                         </div>
 
                         <!-- RESPONSIVE -->      
-                        <div class="col-md-6 text-homepage-mobile">
+                        <div class="col-md-7 text-homepage">
                             <p class="m-0 textHomepage">Résidence de production et exposition avec Caroline Colas - 2021</p>
                             <p class="m-0 textHomepage">— Print, scénographie, expérimentation, recherche</p>
                         </div>
@@ -107,6 +107,8 @@
                         <button class="carousel-control-next carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel1" data-bs-slide="next">
                             <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
                         </button>
+
+                        <div class="border-mobile"></div>
                         <!-- FIN DU RESPONSIVE -->
 
                         <!-- <a href id="scrollToTop"><img src="../images/fleche-arrow-up-nb-fond.svg"  class="icon" title="Top"></a> -->
