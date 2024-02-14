@@ -401,8 +401,8 @@
                             <p class="textHomepage m-0">Commenditaire : Garage404, exercice</p>
                             <p class="m-0 textHomepage carousel-arrows-mobile">— Web - Html, CSS, Javascript</p>
                         </div>
-                         <!-- RESPONSIVE -->
-                         <div class="col-md-7 text-homepage">
+                        <!-- RESPONSIVE -->
+                        <div class="col-md-7 text-homepage">
                             <p class="m-0 textHomepage">Reproduction d'un drum pad - 2023 <a href="https://manon-drumpad.projets.garage404.com/" class="text-black">[Voir]</a></p>
                             <p class="m-0">— Web - Html, CSS, Javascript</a>
                         </div>
@@ -423,10 +423,11 @@
                 <div class="carousel-inner h-100">
                     <div class="carousel-item active h-100">
                         <div class="row h-100">
-                            <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <video class="img-fluid rounded-4 img-mobile" style="max-width: 100%;" autoplay loop muted>
-                                    <source src="../images/course-mario.mp4" type="video/mp4" alt="Mario">
-                                </video>
+                            <div class="image col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
+                                <!-- <video class="img-fluid rounded-4 img-mobile" style="max-width: 100%;" autoplay loop muted>
+                                    <source src="../images/course-mario.mp4" type="video/mp4" alt="Mario"> -->
+                                    <img src="../images/punchline-combat.png" class="rounded-4 img-mobile" alt="Drum-Pad" width="100%" height="auto">
+                                <!-- </video> -->
                             </div>
                         </div>
                     </div>
@@ -439,59 +440,41 @@
                     </button>
                 </div>
 
-
-
-                <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid justify-content-center align-items-center">
-                    <div class="textHomepage carousel-pagination col-md-2 d-flex justify-content-center">
-                        <span id="current-slide-5">01</span>/<span id="total-slides-5">01</span>
-                    </div>
-
-                    <div class="project align-items-center justify-content-center col-md row">
-                        <!-- BUTTON RESPONSIVE -->
-                        <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
-                            <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
-                        </button>
-                        <!-- FIN RESPONSIVE -->
-                        <div class="col-md-3 col-7 text-homepage-mobile">
-                            <p class="titre m-0"><strong>Drum Pad</p></strong>
-                            <p class="textHomepage m-0">Garage404, exercice de formation</p>
-                        </div>
-                        <div class="textHomepage col-6">
-                            <p class="m-0">Reproduction d'un drum pad - 2023 <a href="https://manon-drumpad.projets.garage404.com/" class="text-black">[Voir]</a></p>
-                            <p class="m-0">— Web - Html, CSS, Javascript</a>
-                        </div>
-                    </div>
+        <div class="separator d-flex justify-content-center">
+            <div class="d-flex m-0 row container-fluid justify-content-center align-items-center">
+                <div class="textHomepage carousel-pagination col-md-2 d-flex justify-content-center">
+                    <span id="current-slide-6">01</span>/<span id="total-slides-6">01</span>
                 </div>
 
-
-
-
-                <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid justify-content-center align-items-center">
-                    <div class="textHomepage carousel-pagination col-md-2 d-flex justify-content-center">
-                            <span id="current-slide-6">01</span>/<span id="total-slides-6">01</span>
-                        </div>
-
-                        <div class="project align-items-center justify-content-center col-md row">
-                        <!-- BUTTON RESPONSIVE -->
-                        <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
-                            <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
-                        </button>
-                        <!-- FIN RESPONSIVE -->
-                        <div class="col-md-3 col-7 text-homepage-mobile">
-                                <p class="titre m-0"><strong>Mario</strong></p>
-                                <p class="textHomepage m-0">Commenditaire : Garage404, exercice</p>
-                            </div>
-                            <div class="textHomepage col-6">
-                                <p class="m-0">Animation d'une course - 2023 <a href="https://codepen.io/Manoncaffin/pen/ZEPmRZY" class="text-black">[Voir]</a></p>
-                                <p class="m-0">— Animation - Html, CSS</a>
-                            </div>
-                        </div>
+                <div class="project align-items-center justify-content-center col-md row">
+                    <!-- BUTTON RESPONSIVE -->
+                    <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                        <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
+                    </button>
+                    <!-- FIN RESPONSIVE -->
+                    <div class="col-md-3 col-7 text-homepage-mobile">
+                        <p class="titre m-0"><strong>Punchline-combat</strong></p>
+                        <p class="textHomepage m-0">Commenditaire : Garage404, exercice</p>
+                        <p class="m-0 textHomepage carousel-arrows-mobile">— Web - PDO, POO</a>
                     </div>
+                    <!-- RESPONSIVE -->
+                    <div class="col-md-7 text-homepage">
+                        <p class="m-0 textHomepage">Animation d'un jeu de combat - 2023 <a href="https://manon-combat-punchlines.projets.garage404.com/" class="text-black">[Voir]</a></p>
+                        <p class="m-0">— Web - PDO, POO</a>
+                    </div>
+
+                    <button class="carousel-control-next carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                        <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
+                    </button>
+
+                    <div class="border-mobile"></div>
+                    <!-- FIN DU RESPONSIVE -->
+                </div>
+            </div>
+        </div>
         </section>
 
-        https://manon-combat-punchlines.projets.garage404.com/
+
 
         https://insta-manon.projets.garage404.com/pages/
 
