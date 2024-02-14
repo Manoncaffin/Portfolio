@@ -26,20 +26,29 @@
     </header>
 
     <main>
-        <section id="contact" class="d-flex vh-100 justify-content-center slide-in">
+        <section id="contact" class="d-flex justify-content-center slide-in">
             <div class="contact-two container-md">
                 <div class="textTotal row">
                     <div class="part-one col-md-4 col-12">
-                        <a href="mailto:caffinmanon@gmail.com" class="text-mail">caffinmanon@gmail.com</a><br>
-                        <p class="text-tel pb-4">+33 (0) 6 81 78 23 14</p>
+
+                    <div class="popup-mobile">
+                        <div>
+                            <a href="mailto:caffinmanon@gmail.com" class="text-mail m-0">caffinmanon@gmail.com</a><br>
+                            <p class="text-tel pb-4 m-0">+33 (0) 6 81 78 23 14</p>
+                        </div>
+
+                            <div class="">
+                                <a href="../pages/index.php"><button type="button" class="btn-close" aria-label="Close"></button></a>
+                            </div>
+                    </div>
 
                         <p class="text-contact mb-0">graphisme</p>
                         <p class="text-contact mb-0">identité visuelle</p>
-                        <p class="text-contact pb-4">développement web</p>
+                        <p class="text-contact pb-4 m-0">développement web</p>
                         
-                        <a href="" class="text-link"><span>GitHub</a></span><br>
-                        <a href="../images/CV_2024.pdf" class="text-link-two"><span>Curriculum vitae</span></a><br>
-                        <a href="https://www.linkedin.com/in/manon-caffin-84192a198/" class="text-link"><span>Linkedin</a></span>
+                        <a href="" class="text-link m-0"><span>GitHub</a></span><br>
+                        <a href="../images/CV_2024.pdf" class="text-link-two m-0"><span>Curriculum vitae</span></a><br>
+                        <a href="https://www.linkedin.com/in/manon-caffin-84192a198/" class="text-link m-0"><span>Linkedin</a></span>
                     </div>
 
                     <div class="col-md-1 pt-4"></div>
@@ -54,7 +63,7 @@
 
                         <p class="text-infos m-0">Conception graphique et développement : Manon Caffin</p>
                         <p class="text-infos m-0">Photographies : © Manon Caffin - Caroline Colas</p>
-                        <p class="text-infos m-0">Typographie : © Aileron par Sora Sagano, Capriola par Viktoriya Grabowska </p>
+                        <p class="text-infos m-0">Typographie : © Larsseit par Nico Inosanto, Capriola par Viktoriya Grabowska </p>
                         <p class="text-infos m-0">Aucune des images présentées sur ce site ne peut être reproduite sans autorisation préalable de ses auteurs.</p>
                     </div>
                 </div>

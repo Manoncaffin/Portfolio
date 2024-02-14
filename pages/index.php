@@ -32,7 +32,7 @@
                     <div class="carousel-item active h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/IMG_0948_copie.jpg" class="rounded-4" alt="Battements Telluriques" width="100%" height="auto">
+                                <img src="../images/IMG_0948_copie.jpg" class="rounded-4 img-mobile" alt="Battements Telluriques" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100 d-flex justify-content-center">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/IMG_1075.jpg" class="rounded-4" alt="Battements Telluriques" width="100%" height="auto">
+                                <img src="../images/IMG_1075.jpg" class="rounded-4 img-mobile" alt="Battements Telluriques" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                     <div class="carousel-item h-100">
                         <div class="row w-100 h-100 ">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/IMG_1956.jpg" class="rounded-4" alt="Battements Telluriques" width="100%" height="auto">
+                                <img src="../images/IMG_1956.jpg" class="rounded-4 img-mobile" alt="Battements Telluriques" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/IMG_0834.JPG" class="rounded-4" alt="Battements Telluriques" width="100%" height="auto">
+                                <img src="../images/IMG_0834.JPG" class="rounded-4 img-mobile" alt="Battements Telluriques" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/Depliant_Recto_Verso.jpg" class="rounded-4" alt="Battements Telluriques" width="100%" height="auto">
+                                <img src="../images/Depliant_Recto_Verso.jpg" class="rounded-4 img-mobile" alt="Battements Telluriques" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                     <div class="carousel-item active h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/IMG_0355.jpg" class="rounded-4" alt="Au 46" width="100%" height="auto">
+                                <img src="../images/IMG_0355.jpg" class="rounded-4 img-mobile" alt="Au 46" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100 d-flex justify-content-center">
                             <div class="col-md-12 col-lg-6 d-flex justify-content-center align-items-center">
-                                <img src="../images/IMG_0361.jpg" class="rounded-4" alt="Au 46" width="100%" height="auto">
+                                <img src="../images/IMG_0361.jpg" class="rounded-4 img-mobile" alt="Au 46" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                     <div class="carousel-item h-100">
                         <div class="row w-100 h-100 ">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/IMG_0345.jpg" class="rounded-4" alt="Au 46" width="100%" height="auto">
+                                <img src="../images/IMG_0345.jpg" class="rounded-4 img-mobile" alt="Au 46" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/4PAGES_1.jpg" class="rounded-4" alt="Au 46" width="100%" height="auto">
+                                <img src="../images/4PAGES_1.jpg" class="rounded-4" alt="Au 46 img-mobile" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/DOC090221-005.jpg" class="rounded-4" alt="Au 46" width="100%" height="auto">
+                                <img src="../images/DOC090221-005.jpg" class="rounded-4" alt="Au 46 img-mobile" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/4PAGES_2.jpg" class="rounded-4" alt="Au 46" width="100%" height="auto">
+                                <img src="../images/4PAGES_2.jpg" class="rounded-4" alt="Au 46 img-mobile" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/Page_Dessin.jpg" class="rounded-4" alt="Au 46" width="100%" height="auto">
+                                <img src="../images/Page_Dessin.jpg" class="rounded-4" alt="Au 46 img-mobile" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -223,7 +223,7 @@
                     <div class="carousel-item active h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/Logo_Constructions_Plurielles.jpg" class="rounded-4" alt="Constructions Plurielles" width="100%" height="auto">
+                                <img src="../images/Logo_Constructions_Plurielles.jpg" class="rounded-4 img-mobile" alt="Constructions Plurielles" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -231,7 +231,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100 d-flex justify-content-center">
                             <div class="col-md-12 col-lg-6 d-flex justify-content-center align-items-center">
-                                <img src="../images/Constructions_Plurielles_Spotify.png" class="rounded-4" alt="Constructions Plurielles" width="100%" height="auto">
+                                <img src="../images/Constructions_Plurielles_Spotify.png" class="rounded-4 img-mobile" alt="Constructions Plurielles" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -273,17 +273,41 @@
                     <div class="carousel-item active h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/Mountain.png" class="rounded-4" alt="Mountains" width="100%" height="auto">
+                                <img src="../images/mountain-1.png" class="rounded-4 img-mobile" alt="Mountain" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
-                </div>
+                
+
+                <div class="carousel-item h-100">
+                        <div class="row w-100 h-100">
+                            <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
+                                <img src="../images/mountain-2.png" class="rounded-4 img-mobile" alt="Mountain" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item h-100">
+                        <div class="row w-100 h-100">
+                            <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
+                                <img src="../images/mountain-3.png" class="rounded-4 img-mobile" alt="Mountain" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item h-100">
+                        <div class="row w-100 h-100">
+                            <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
+                                <img src="../images/mountain-4.png" class="rounded-4 img-mobile" alt="Mountain" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
 
                 <button class="carousel-control-prev carousel-arrows" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
                     <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
-
-
                 </button>
+
                 <button class="carousel-control-next carousel-arrows" type="button" data-bs-target="#carousel4" data-bs-slide="next">
                     <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
                 </button>
@@ -314,7 +338,7 @@
                     <div class="carousel-item active h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/Drum_Pad.jpg" class="rounded-4" alt="Drum-Pad" width="100%" height="auto">
+                                <img src="../images/Drum_Pad.jpg" class="rounded-4 img-mobile" alt="Drum-Pad" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -356,7 +380,7 @@
                     <div class="carousel-item active h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <video class="img-fluid rounded-4" style="max-width: 100%;" autoplay loop muted>
+                                <video class="img-fluid rounded-4 img-mobile" style="max-width: 100%;" autoplay loop muted>
                                     <source src="../images/course-mario.mp4" type="video/mp4" alt="Mario">
                                 </video>
                             </div>
@@ -384,13 +408,16 @@
                                 <p class="m-0">Garage404, exercice de formation</p>
                             </div>
                             <div class="textHomepage col-6">
-                                <p class="m-0">Animation d'une course - 2023 <a href="" class="text-black">[Voir]</a></p>
+                                <p class="m-0">Animation d'une course - 2023 <a href="https://codepen.io/Manoncaffin/pen/ZEPmRZY" class="text-black">[Voir]</a></p>
                                 <p class="m-0">— Animation - Html, CSS</a>
                             </div>
                         </div>
                     </div>
         </section>
+        
+        https://manon-combat-punchlines.projets.garage404.com/
 
+        https://insta-manon.projets.garage404.com/pages/
 
         <script>
             // pagination carousels

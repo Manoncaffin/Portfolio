@@ -164,6 +164,7 @@ body {
 /* infos */
 #contact {
     background-color: #f7ea9c;
+    height: 100vh;
 }
 
 .textTotal {
@@ -270,6 +271,10 @@ body {
     cursor: pointer;
 }
 
+.popup-mobile button {
+    display: none;
+}
+
 /* défilement de la page du bas vers le haut */
 .slide-in {
     animation: slideIn 0.5s ease-out;
@@ -301,8 +306,7 @@ body {
 
 
 
-/* à revoir */
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .textHomepage {
         display: flex;
         flex-direction: column;
@@ -310,9 +314,19 @@ body {
         font-size: 11px;
     }
 
-    .carousels {
-        height: 500px !important;
+    .img-mobile {
+        margin: 3px!important;
+        width: 400px!important;
     }
+
+    .titre strong {
+        margin-left: 17%;
+    }
+
+    /* .carousels { */
+        /* height: 500px !important; */
+        /* margin-top: 1rem; */
+    /* } */
 
     .carousel-control-prev {
         position: relative;
@@ -369,38 +383,50 @@ body {
     }
 
     .text-mail {
-        font-size: 2.9vw;
+        font-size: 4.5vw;
     }
 
     .text-tel {
-        font-size: 2.9vw;
+        font-size: 4.5vw;
     }
 
     .text-contact {
-        font-size: 2.9vw;
+        font-size: 4.5vw;
     }
 
     .text-link {
-        font-size: 2.9vw;
+        font-size: 4.5vw;
+        line-height: 1;
     }
 
     .text-link-two {
-        font-size: 2.9vw;
+        font-size: 4.5vw;
+        line-height: 1;
     }
 
     .text-about {
-        font-size: 2.1vw;
+        font-size: 3.5vw;
+        line-height: 1.5;
     }
 
     .text-infos {
-        font-size: 1.8vw;
+        font-size: 2.5vw;
+        line-height: 1.5;
     }
 
-    /* .popup {
-            display: flex;
-            justify-content: end;
-        }
-    } */
+    .popup {
+        display: none;
+    }
+
+    .popup-mobile {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 30px;
+    }
+
+    .popup-mobile button {
+        display: block;
+    }
 
     .hover-logo {
         font-size: 28px;
@@ -421,12 +447,17 @@ body {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
+
+    #contact {
+        background-color: #f7ea9c;
+        height: 100%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1500px) {
 
-    .img {
-        width:500px;
+    .img-mobile {
+        width:700px;
     }
 
     .titre {
@@ -466,6 +497,6 @@ body {
     }
 
     .text-infos {
-        font-size: 1.2vw;
+        font-size: 1vw;
     }
 }
