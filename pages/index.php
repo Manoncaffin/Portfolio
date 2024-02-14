@@ -24,7 +24,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="project-mobile">
         <section class="carousels container-fluid mainsection p-0 vh-100 d-flex flex-column">
             <div class="separator-top"></div>
             <div id="carousel1" class="carousel slide carousel-size background-section" data-bs-ride="carousel">
@@ -46,7 +46,7 @@
                     </div>
 
                     <div class="carousel-item h-100">
-                        <div class="row w-100 h-100 ">
+                        <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
                                 <img src="../images/IMG_1956.jpg" class="rounded-4 img-mobile" alt="Battements Telluriques" width="100%" height="auto">
                             </div>
@@ -72,21 +72,23 @@
 
                 <button class="carousel-control-prev carousel-arrows" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
                     <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
+                    <!-- <img src="../images/fleche-bleu-gauche.png" alt="Image précédente" class="icons"> -->
                 </button>
                 <button class="carousel-control-next carousel-arrows" type="button" data-bs-target="#carousel1" data-bs-slide="next">
                     <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
+                    <!-- <img src="../images/fleche-bleu-droite.png" alt="Image suivante" class="icons"> -->
                 </button>
             </div>
 
             <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid align-items-center">
+                <div class="d-flex m-0 row container-fluid justify-content-center align-items-center">
 
                     <div class="carousel-pagination col-md-2 d-flex justify-content-center">
                         <span id="current-slide-1">01</span>/<span id="total-slides-1">05</span>
                     </div>
 
                     <div class="project align-items-center justify-content-center col-md row">
-                       <!-- BUTTON RESPONSIVE -->
+                        <!-- BUTTON RESPONSIVE -->
                         <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
                             <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
                         </button>
@@ -94,11 +96,10 @@
                         <div class="col-md-3 col-7 text-homepage-mobile">
                             <p class="titre m-0"><strong>Battements Telluriques</p></strong>
                             <p class="textHomepage m-0">Commenditaire : DRAC</p>
-                            <!-- <p class="m-0 textHomepage carousel-arrows-mobile">Résidence de production et exposition avec Caroline Colas - 2021</p> -->
                             <p class="m-0 textHomepage carousel-arrows-mobile">— Print, scénographie, expérimentation, recherche</p>
                         </div>
 
-                        <!-- RESPONSIVE -->      
+                        <!-- RESPONSIVE -->
                         <div class="col-md-7 text-homepage">
                             <p class="m-0 textHomepage">Résidence de production et exposition avec Caroline Colas - 2021</p>
                             <p class="m-0 textHomepage">— Print, scénographie, expérimentation, recherche</p>
@@ -122,14 +123,14 @@
                 <div class="carousel-inner h-100">
                     <div class="carousel-item active h-100">
                         <div class="row h-100">
-                            <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
+                            <div class="image col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
                                 <img src="../images/IMG_0355.jpg" class="rounded-4 img-mobile" alt="Au 46" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item h-100">
-                        <div class="row h-100 d-flex justify-content-center">
+                        <div class="row h-100">
                             <div class="col-md-12 col-lg-6 d-flex justify-content-center align-items-center">
                                 <img src="../images/IMG_0361.jpg" class="rounded-4 img-mobile" alt="Au 46" width="100%" height="auto">
                             </div>
@@ -137,7 +138,7 @@
                     </div>
 
                     <div class="carousel-item h-100">
-                        <div class="row w-100 h-100 ">
+                        <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
                                 <img src="../images/IMG_0345.jpg" class="rounded-4 img-mobile" alt="Au 46" width="100%" height="auto">
                             </div>
@@ -147,7 +148,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/4PAGES_1.jpg" class="rounded-4" alt="Au 46 img-mobile" width="100%" height="auto">
+                                <img src="../images/4PAGES_1.jpg" class="rounded-4 img-mobile" alt="Au 46" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -155,7 +156,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/DOC090221-005.jpg" class="rounded-4" alt="Au 46 img-mobile" width="100%" height="auto">
+                                <img src="../images/DOC090221-005.jpg" class="rounded-4 img-mobile" alt="Au 46" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -163,7 +164,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/4PAGES_2.jpg" class="rounded-4" alt="Au 46 img-mobile" width="100%" height="auto">
+                                <img src="../images/4PAGES_2.jpg" class="rounded-4 img-mobile" alt="Au 46" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -171,7 +172,7 @@
                     <div class="carousel-item h-100">
                         <div class="row h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                                <img src="../images/Page_Dessin.jpg" class="rounded-4" alt="Au 46 img-mobile" width="100%" height="auto">
+                                <img src="../images/Page_Dessin.jpg" class="rounded-4 img-mobile" alt="Au 46" width="100%" height="auto">
                             </div>
                         </div>
                     </div>
@@ -186,35 +187,38 @@
             </div>
 
             <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid align-items-center">
+                <div class="d-flex m-0 row container-fluid justify-content-center align-items-center">
 
                     <div class="textHomepage carousel-pagination col-md-2 d-flex justify-content-center">
-                        <span id="current-slide-2">01</span>/<span id="total-slides-2">05</span>
+                        <span id="current-slide-2">01</span>/<span id="total-slides-2">07</span>
                     </div>
 
-                    <!-- texte initial -->
+                    <div class="project align-items-center justify-content-center col-md row">
 
-                    <div class="initial-state d-flex justify-content-around col row">
-
-                        <button class="carousel-control-prev carousel-arrows-mobile" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                        <!-- BUTTON RESPONSIVE -->
+                        <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
                             <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
                         </button>
-
-                        <div class="col-md-3">
+                        <!-- FIN RESPONSIVE -->
+                        <div class="col-md-3 col-7 text-homepage-mobile">
                             <p class="titre m-0"><strong>Au 46</p></strong>
                             <p class="textHomepage m-0">Commenditaire : Lycée Agricole d'Amboise</p>
+                            <p class="m-0 textHomepage carousel-arrows-mobile">— Print, édition, expérimentation, recherche</p>
                         </div>
 
-                        <div class="textHomepage col-md-6">
-                            <p class="m-0">Conception graphique réalisée avec Caroline Colas et les élèves de Terminale - 2021</p>
-                            <p class="m-0">— Print, édition, expérimentation, recherche</p>
+                        <!-- RESPONSIVE -->
+                        <div class="col-md-7 text-homepage">
+                            <p class="m-0 textHomepage">Conception graphique réalisée avec Caroline Colas et les élèves de Terminale - 2021</p>
+                            <p class="m-0 textHomepage">— Print, édition, expérimentation, recherche</p>
                         </div>
+
+                        <button class="carousel-control-next carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                            <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
+                        </button>
+
+                        <div class="border-mobile"></div>
+                        <!-- FIN DU RESPONSIVE -->
                     </div>
-
-                    <button class="carousel-control-next carousel-arrows-mobile" type="button" data-bs-target="#carousel1" data-bs-slide="next">
-                        <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
-                    </button>
-
                 </div>
             </div>
         </section>
@@ -241,8 +245,6 @@
 
                 <button class="carousel-control-prev carousel-arrows" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
                     <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
-
-
                 </button>
                 <button class="carousel-control-next carousel-arrows" type="button" data-bs-target="#carousel3" data-bs-slide="next">
                     <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
@@ -250,23 +252,37 @@
             </div>
 
             <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid align-items-center">
-                    <div class="carousel-pagination col-md-2 d-flex justify-content-center">
+                <div class="d-flex m-0 row container-fluid justify-content-center align-items-center">
+                    <div class="textHomepage carousel-pagination col-md-2 d-flex justify-content-center">
                         <span id="current-slide-3">01</span>/<span id="total-slides-3">02</span>
                     </div>
 
-
-                    <div class="initial-state d-flex justify-content-around col row">
-                        <div class="col-md-3">
+                    <div class="project align-items-center justify-content-center col-md row">
+                        <!-- BUTTON RESPONSIVE -->
+                        <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                            <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
+                        </button>
+                        <!-- FIN RESPONSIVE -->
+                        <div class="col-md-3 col-7 text-homepage-mobile">
                             <p class="titre m-0"><strong>Constructions Pluri[elles]</p></strong>
                             <p class="textHomepage m-0">Commenditaire : Association Oïkos</p>
+                            <p class="m-0 textHomepage carousel-arrows-mobile">— Identité visuelle</p>
                         </div>
-                        <div class="textHomepage col-6">
-                            <p class="m-0">Conception de l'identité visuelle du podcast, La Tour-de-Salvagny - 2022</p>
-                            <p class="m-0">— Identité visuelle</p>
+                        <!-- RESPONSIVE -->
+                        <div class="col-md-7 text-homepage">
+                            <p class="m-0 textHomepage">Conception de l'identité visuelle du podcast, La Tour-de-Salvagny - 2022</p>
+                            <p class="m-0 textHomepage">— Identité visuelle</p>
                         </div>
+
+                        <button class="carousel-control-next carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                            <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
+                        </button>
+
+                        <div class="border-mobile"></div>
+                        <!-- FIN DU RESPONSIVE -->
                     </div>
                 </div>
+            </div>
         </section>
 
         <section class="carousels container-fluid mainsection p-0 vh-100 d-flex flex-column">
@@ -279,9 +295,8 @@
                             </div>
                         </div>
                     </div>
-                
 
-                <div class="carousel-item h-100">
+                    <div class="carousel-item h-100">
                         <div class="row w-100 h-100">
                             <div class="col-md-12 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
                                 <img src="../images/mountain-2.png" class="rounded-4 img-mobile" alt="Mountain" width="100%" height="auto">
@@ -304,7 +319,7 @@
                             </div>
                         </div>
                     </div>
-                    </div>
+                </div>
 
                 <button class="carousel-control-prev carousel-arrows" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
                     <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
@@ -316,22 +331,37 @@
             </div>
 
             <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid align-items-center">
-                    <div class="carousel-pagination col-md-2 d-flex justify-content-center">
+                <div class="d-flex m-0 row container-fluid justify-content-center align-items-center">
+                    <div class="textHomepage carousel-pagination col-md-2 d-flex justify-content-center">
                         <span id="current-slide-4">01</span>/<span id="total-slides-4">01</span>
                     </div>
 
-                    <div class="initial-state d-flex justify-content-around col row">
-                        <div class="col-md-3">
+                    <div class="project align-items-center justify-content-center col-md row">
+                        <!-- BUTTON RESPONSIVE -->
+                        <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                            <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
+                        </button>
+                        <!-- FIN RESPONSIVE -->
+                        <div class="col-md-3 col-7 text-homepage-mobile">
                             <p class="titre m-0"><strong>In the hall of the Mountain King</p></strong>
-                            <p class="textHomepage m-0">Garage404, exercice de formation</p>
+                            <p class="textHomepage m-0">Commenditaire : Garage404, exercice</p>
+                            <p class="textHomepage m-0 carousel-arrows-mobile">— Maquette, web - Html, CSS</p>
                         </div>
-                        <div class="textHomepage col-6">
-                            <p class="m-0">Reproduction d'une maquette de site web - 2023 <a href="https://manon-mountains.projets.garage404.com/" class="text-black">[Voir]</a></p>
-                            <p class="m-0">— Maquette, web - Html, CSS</p>
+                        <!-- RESPONSIVE -->
+                        <div class="col-md-7 text-homepage">
+                            <p class="m-0 textHomepage">Reproduction d'une maquette de site web - 2023 <a href="https://manon-mountains.projets.garage404.com/" class="text-black">[Voir]</a></p>
+                            <p class="m-0 textHomepage">— Maquette, web - Html, CSS</p>
                         </div>
+
+                        <button class="carousel-control-next carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                            <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
+                        </button>
+
+                        <div class="border-mobile"></div>
+                        <!-- FIN DU RESPONSIVE -->
                     </div>
                 </div>
+            </div>
         </section>
 
         <section class="carousels container-fluid mainsection p-0 vh-100 d-flex flex-column">
@@ -348,8 +378,6 @@
 
                 <button class="carousel-control-prev carousel-arrows" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
                     <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
-
-
                 </button>
                 <button class="carousel-control-next carousel-arrows" type="button" data-bs-target="#carousel5" data-bs-slide="next">
                     <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
@@ -357,23 +385,37 @@
             </div>
 
             <div class="separator d-flex justify-content-center">
-                <div class="d-flex m-0 row container-fluid align-items-center">
+                <div class="d-flex m-0 row container-fluid justify-content-center align-items-center">
                     <div class="textHomepage carousel-pagination col-md-2 d-flex justify-content-center">
                         <span id="current-slide-5">01</span>/<span id="total-slides-5">01</span>
                     </div>
 
-
-                    <div class="initial-state d-flex justify-content-around col row">
-                        <div class="col-md-3">
+                    <div class="project align-items-center justify-content-center col-md row">
+                        <!-- BUTTON RESPONSIVE -->
+                        <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                            <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
+                        </button>
+                        <!-- FIN RESPONSIVE -->
+                        <div class="col-md-3 col-7 text-homepage-mobile">
                             <p class="titre m-0"><strong>Drum Pad</p></strong>
-                            <p class="textHomepage m-0">Garage404, exercice de formation</p>
+                            <p class="textHomepage m-0">Commenditaire : Garage404, exercice</p>
+                            <p class="m-0 textHomepage carousel-arrows-mobile">— Web - Html, CSS, Javascript</p>
                         </div>
-                        <div class="textHomepage col-6">
-                            <p class="m-0">Reproduction d'un drum pad - 2023 <a href="https://manon-drumpad.projets.garage404.com/" class="text-black">[Voir]</a></p>
+                         <!-- RESPONSIVE -->
+                         <div class="col-md-7 text-homepage">
+                            <p class="m-0 textHomepage">Reproduction d'un drum pad - 2023 <a href="https://manon-drumpad.projets.garage404.com/" class="text-black">[Voir]</a></p>
                             <p class="m-0">— Web - Html, CSS, Javascript</a>
                         </div>
+
+                        <button class="carousel-control-next carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                            <img src="../images/fleche-droite-nb-fond.svg" alt="Image suivante" class="icons">
+                        </button>
+
+                        <div class="border-mobile"></div>
+                        <!-- FIN DU RESPONSIVE -->
                     </div>
                 </div>
+            </div>
         </section>
 
         <section class="carousels container-fluid mainsection p-0 vh-100 d-flex flex-column">
@@ -397,17 +439,49 @@
                     </button>
                 </div>
 
+
+
                 <div class="separator d-flex justify-content-center">
-                    <div class="d-flex m-0 row container-fluid align-items-center">
-                        <div class="carousel-pagination col-md-2 d-flex justify-content-center">
+                <div class="d-flex m-0 row container-fluid justify-content-center align-items-center">
+                    <div class="textHomepage carousel-pagination col-md-2 d-flex justify-content-center">
+                        <span id="current-slide-5">01</span>/<span id="total-slides-5">01</span>
+                    </div>
+
+                    <div class="project align-items-center justify-content-center col-md row">
+                        <!-- BUTTON RESPONSIVE -->
+                        <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                            <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
+                        </button>
+                        <!-- FIN RESPONSIVE -->
+                        <div class="col-md-3 col-7 text-homepage-mobile">
+                            <p class="titre m-0"><strong>Drum Pad</p></strong>
+                            <p class="textHomepage m-0">Garage404, exercice de formation</p>
+                        </div>
+                        <div class="textHomepage col-6">
+                            <p class="m-0">Reproduction d'un drum pad - 2023 <a href="https://manon-drumpad.projets.garage404.com/" class="text-black">[Voir]</a></p>
+                            <p class="m-0">— Web - Html, CSS, Javascript</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="separator d-flex justify-content-center">
+                <div class="d-flex m-0 row container-fluid justify-content-center align-items-center">
+                    <div class="textHomepage carousel-pagination col-md-2 d-flex justify-content-center">
                             <span id="current-slide-6">01</span>/<span id="total-slides-6">01</span>
                         </div>
 
-
-                        <div class="initial-state d-flex justify-content-around col row">
-                            <div class="col-md-3">
+                        <div class="project align-items-center justify-content-center col-md row">
+                        <!-- BUTTON RESPONSIVE -->
+                        <button class="carousel-control-prev carousel-arrows-mobile col-1" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                            <img src="../images/fleche-gauche-nb-fond.svg" alt="Image précédente" class="icons">
+                        </button>
+                        <!-- FIN RESPONSIVE -->
+                        <div class="col-md-3 col-7 text-homepage-mobile">
                                 <p class="titre m-0"><strong>Mario</strong></p>
-                                <p class="m-0">Garage404, exercice de formation</p>
+                                <p class="textHomepage m-0">Commenditaire : Garage404, exercice</p>
                             </div>
                             <div class="textHomepage col-6">
                                 <p class="m-0">Animation d'une course - 2023 <a href="https://codepen.io/Manoncaffin/pen/ZEPmRZY" class="text-black">[Voir]</a></p>
@@ -416,7 +490,7 @@
                         </div>
                     </div>
         </section>
-        
+
         https://manon-combat-punchlines.projets.garage404.com/
 
         https://insta-manon.projets.garage404.com/pages/
