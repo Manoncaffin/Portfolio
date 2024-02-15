@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+p {
+    margin: 0;
+}
+
 .loading {
     padding-top: 200px;
 }
@@ -109,7 +113,7 @@ body {
 }
 
 .background-section {
-    background-color: #e8edf0;
+    background-color: #e9eef0;
 }
 
 .carousel-control-next,
@@ -133,12 +137,12 @@ body {
 }
 
 .icons {
-    width: 4.5vh;
+    width: 6vh;
     height: auto;
 }
 
 .icons:hover {
-    box-shadow: 5px 5px 5px #f7ea9c;
+    box-shadow: 10px 10px 10px #f7ea9c;
 }
 
 .icon {
@@ -177,6 +181,7 @@ body {
 
 #contact a {
     color: black;
+    margin: 0;
 }
 
 .text-contact {
@@ -193,7 +198,7 @@ body {
 }
 
 .text-mail:hover {
-    transform: rotate(5deg);
+    transform: rotate(-3deg);
     text-decoration: underline;
 }
 
@@ -206,7 +211,7 @@ body {
 }
 
 .text-tel:hover {
-    transform: rotate(-5deg);
+    transform: rotate(3deg);
     text-decoration: underline;
 }
 
@@ -315,6 +320,10 @@ body {
         margin-top: 70px;
     }
 
+    .specific-image {
+        height: fit-content!important;
+    }
+
     ::-webkit-scrollbar {
         display: none;
     }
@@ -331,10 +340,6 @@ body {
         height: fit-content;
     }
 
-    /* .h-100 {
-        height: fit-content!important;
-    }  */
-
     .carousel-size {
         flex: 0;
         margin-bottom: 0;
@@ -348,15 +353,15 @@ body {
     }
 
     .img-mobile {
-        margin: 3px!important;
-        width: 400px!important; 
+        margin: 3px;
+        width: 400px; 
     }
 
     .border-mobile {
         border-bottom: solid 2px black;
         display: flex;
         justify-content: center;
-        width: 453px;
+        width: 400px;
         margin-top: 10px;
         margin-bottom: 20px;
     }
@@ -529,10 +534,10 @@ body {
     }
 
     .text-about {
-        font-size: 1.5vw;
+        font-size: 1.6vw;
     }
 
     .text-infos {
-        font-size: 1vw;
+        font-size: 1.10vw;
     }
 }
