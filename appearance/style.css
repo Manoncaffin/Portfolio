@@ -66,20 +66,20 @@ p {
 }
 
 .hover-text-container {
-    font-family: "Larsseit";
+    font-family: "Larsseit", Arial, sans-serif;
     font-size: 2.3rem;
     transition: 0.3s ease-in-out;
 }
 
 .hover-text-container:hover {
-    font-family: "Larsseit";
+    font-family: "Larsseit", Arial, sans-serif;
     -webkit-transform: scale(1.6);
     transform: scale(1.6);
 }
 
 /* index */
 body {
-    font-family: "Larsseit";
+    font-family: "Larsseit", Arial, sans-serif;
     font-size: 1.1rem;
     min-width: 100vw;
     min-height: 100vh;
@@ -162,12 +162,12 @@ body {
 
 .text-contact {
     font-size: 2.3rem;
-    font-family: "Larsseit";
+    font-family: "Larsseit", Arial, sans-serif;
 }
 
 .text-mail, .text-tel {
     font-size: 2.3rem;
-    font-family: "Larsseit";
+    font-family: "Larsseit", Arial, sans-serif;
     display: inline-block;
     text-decoration: none;
     transition: transform 0.3s ease;
@@ -185,7 +185,7 @@ body {
 
 .text-link, .text-link-two {
     font-size: 2.3rem;
-    font-family: "Larsseit";
+    font-family: "Larsseit", Arial, sans-serif;
     text-decoration: none;
     display: inline-block;
     overflow: hidden;
@@ -211,12 +211,12 @@ body {
 
 .text-about {
     font-size: 1.45rem;
-    font-family: "Larsseit";
+    font-family: "Larsseit", Arial, sans-serif;
 }
 
 .text-infos {
     font-size: 1.2rem;
-    font-family: "Larsseit";
+    font-family: "Larsseit", Arial, sans-serif;
 }
 
 .popup {
@@ -373,7 +373,7 @@ body {
 
     .textHomepage {
         font-size: 0.6rem;
-        font-family: "Larsseit"
+        font-family: "Larsseit", Arial, sans-serif;
     }
 
     .icons {
