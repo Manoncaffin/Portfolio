@@ -143,10 +143,6 @@ body {
   
 }
 
-/* .icons:hover {
-    box-shadow: 10px 10px 10px #f7ea9c;
-} */
-
 .icon {
     width: auto;
     height: 4.5vh;
@@ -318,9 +314,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-    .project-mobile {
+    /* .project-mobile {
         margin-top: 70px;
-    }
+    } */
 
     .specific-image {
         height: fit-content!important;
