@@ -118,8 +118,7 @@ body {
 
 .carousel-control-next,
 .carousel-control-prev {
-    opacity: 0.7;
-    width: 20%;
+   
 }
 
 .carousel {
@@ -138,7 +137,7 @@ body {
 
 .icons {
     width: 6vh;
-    height: auto;
+  
 }
 
 /* .icons:hover {
