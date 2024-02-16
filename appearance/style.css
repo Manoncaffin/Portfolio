@@ -269,7 +269,7 @@ body {
 
     #logoLoading, h1 {
         font-family: "Capriola";
-        font-size: 1vmax;
+        font-size: 2rem;
         font-weight: 600;
         display: flex;
         justify-content: center;
@@ -281,7 +281,7 @@ body {
     }
     
     #loader {
-        font-size: 1vmax;
+        font-size: 2rem;
         font-weight: 600;
         justify-content: center;
         align-items: center;
@@ -385,21 +385,21 @@ body {
     }
 
     .text-mail, .text-tel, .text-contact {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
     .text-link, .text-link-two {
-        font-size: 2rem;
+        font-size: 1.9rem;
         line-height: 1;
     }
 
     .text-about {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         line-height: 1.5;
     }
 
     .text-infos {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 1.5;
     }
 
