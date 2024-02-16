@@ -94,11 +94,14 @@ body {
     text-decoration: underline;
     transform: rotate(0deg);
     transition: transform 0.3s ease;
+    
 }
 
 .titre:hover {
     transform: rotate(-2deg);
-    color: rgb(35, 94, 232);
+    /* color: rgb(54, 64, 251, 100); */
+    /* text-shadow: 4px 5px 10px rgb(232, 35, 212, 0.8); */
+    
 }
 
 .separator,
