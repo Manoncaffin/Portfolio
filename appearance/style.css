@@ -13,7 +13,7 @@ p {
 }
 
 #logoLoading, h1 {
-    font-family: "Capriola";
+    font-family: "Capriola", Combine, sans-serif;
     font-size: 8vmax;
     font-weight: 600;
     /* margin-bottom: 20px; */
@@ -22,7 +22,7 @@ p {
 }
 
 #loader {
-    font-family: "Capriola";
+    font-family: "Capriola", Combine, sans-serif;
     color: black;
     font-size: 8vmax;
     font-weight: 600;
@@ -47,7 +47,7 @@ p {
 }
 
 .hover-logo {
-    font-family: "Capriola";
+    font-family: "Capriola", Combine, sans-serif;
     font-size: 2.3rem;
     transition: 0.3s ease-in-out;
     /* taille du logo sans le hover */
@@ -60,7 +60,7 @@ p {
 
 .hover-logo:hover {
     /* taille du logo avec le hover */
-    font-family: "Capriola";
+    font-family: "Capriola", Combine, sans-serif;
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
 }
@@ -88,11 +88,11 @@ body {
 
 .carousel-pagination {
     font-size: 1.5rem;
-    font-family: "Capriola";
+    font-family: "Capriola", Combine, sans-serif;
 }
 
 .titre {
-    font-family: "Capriola", bold;
+    font-family: "Capriola", Combine, sans-serif;
     font-size: 1.1rem;
     text-decoration: underline;
     transform: rotate(0deg);
@@ -268,7 +268,7 @@ body {
 @media screen and (max-width: 767px) {
 
     #logoLoading, h1 {
-        font-family: "Capriola";
+        font-family: "Capriola", Combine, sans-serif;
         font-size: 2rem;
         font-weight: 600;
         display: flex;
@@ -368,7 +368,7 @@ body {
 
     .titre {
         font-size: 0.7rem;
-        font-family: "Capriola"
+        font-family: "Capriola", Combine, sans-serif;
     }
 
     .textHomepage {
