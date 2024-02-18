@@ -12,8 +12,9 @@ p {
     padding-top: 200px;
 }
 
-#logoLoading, h1 {
-    font-family: "Capriola", Combine, sans-serif;
+#logoLoading,
+h1 {
+    font-family: "Capriola", "backOut", Arial, sans-serif;
     font-size: 8vmax;
     font-weight: 600;
     /* margin-bottom: 20px; */
@@ -22,7 +23,7 @@ p {
 }
 
 #loader {
-    font-family: "Capriola", Combine, sans-serif;
+    font-family: "Capriola", "backOut", Arial, sans-serif;
     color: black;
     font-size: 8vmax;
     font-weight: 600;
@@ -46,22 +47,13 @@ p {
     height: 80px;
 }
 
-.hover-logo {
-    font-family: "Capriola", Combine, sans-serif;
-    font-size: 2.3rem;
-    transition: 0.3s ease-in-out;
-    /* taille du logo sans le hover */
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    /* rapidité du hover */
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+.hover-logo a img {
+    height: 32px;
+    /* padding-bottom: 7px; */
+    transition: transform .3s ease-in-out;
 }
 
-.hover-logo:hover {
-    /* taille du logo avec le hover */
-    font-family: "Capriola", Combine, sans-serif;
-    -webkit-transform: scale(1.3);
+.hover-logo a img:hover {
     transform: scale(1.3);
 }
 
@@ -88,11 +80,11 @@ body {
 
 .carousel-pagination {
     font-size: 1.5rem;
-    font-family: "Capriola", Combine, sans-serif;
+    font-family: "Capriola", "backOut", Arial, sans-serif;
 }
 
 .titre {
-    font-family: "Capriola", Combine, sans-serif;
+    font-family: "Capriola", "Larsseit", Arial, sans-serif;
     font-size: 1.1rem;
     text-decoration: underline;
     transform: rotate(0deg);
@@ -110,7 +102,7 @@ body {
 }
 
 .separator {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(0, 0, 0);
     border-top: 1px solid black;
 }
 
@@ -141,6 +133,16 @@ body {
     height: 4.5vh;
 }
 
+.photo-gris img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    }
+    .photo-gris img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    }
+
+
 /* infos */
 #contact {
     background-color: #f7ea9c;
@@ -165,7 +167,8 @@ body {
     font-family: "Larsseit", Arial, sans-serif;
 }
 
-.text-mail, .text-tel {
+.text-mail,
+.text-tel {
     font-size: 2.3rem;
     font-family: "Larsseit", Arial, sans-serif;
     display: inline-block;
@@ -183,7 +186,8 @@ body {
     text-decoration: underline;
 }
 
-.text-link, .text-link-two {
+.text-link,
+.text-link-two {
     font-size: 2.3rem;
     font-family: "Larsseit", Arial, sans-serif;
     text-decoration: none;
@@ -191,7 +195,8 @@ body {
     overflow: hidden;
 }
 
-.text-link span, .text-link-two span {
+.text-link span,
+.text-link-two span {
     display: block;
     transform: rotate(0deg);
     transition: transform 0.3s ease;
@@ -201,7 +206,8 @@ body {
     transform: rotate(-5deg);
 }
 
-.text-link:hover, .text-link-two:hover {
+.text-link:hover,
+.text-link-two:hover {
     text-decoration: underline;
 }
 
@@ -267,7 +273,13 @@ body {
 
 @media screen and (max-width: 767px) {
 
-    #logoLoading, h1 {
+    .separator,
+    .separator-top {
+        height: 80px;
+    }
+
+    #logoLoading,
+    h1 {
         font-family: "Capriola", Combine, sans-serif;
         font-size: 2.2rem;
         font-weight: 600;
@@ -279,7 +291,7 @@ body {
     .text-about {
         background-color: #f7ea9c;
     }
-    
+
     #loader {
         font-size: 2.2rem;
         font-weight: 600;
@@ -288,14 +300,16 @@ body {
     }
 
     .specific-image {
-        height: fit-content!important;
+        height: fit-content !important;
     }
 
-    ::-webkit-scrollbar, ::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar,
+    ::-webkit-scrollbar-thumb {
         display: none;
     }
 
-    .navbar, .navbar-two {
+    .navbar,
+    .navbar-two {
         height: 60px;
     }
 
@@ -317,7 +331,7 @@ body {
 
     .img-mobile {
         margin: 3px;
-        width: 400px; 
+        width: 400px;
     }
 
     .border-mobile {
@@ -325,15 +339,14 @@ body {
         display: flex;
         justify-content: center;
         width: 400px;
-        margin-top: 10px;
-        margin-bottom: 20px;
     }
 
-    .carousels { 
+    .carousels {
         height: 350px !important;
     }
 
-    .carousel-control-prev, .carousel-control-next {
+    .carousel-control-prev,
+    .carousel-control-next {
         position: relative;
     }
 
@@ -350,7 +363,7 @@ body {
     }
 
     .text-homepage {
-        display: none; 
+        display: none;
     }
 
     .background-section {
@@ -368,7 +381,8 @@ body {
 
     .titre {
         font-size: 0.7rem;
-        font-family: "Capriola", Combine, sans-serif;
+        font-family: "Capriola", "Larsseit", "Arial", sans-serif;
+        text-decoration: none;
     }
 
     .textHomepage {
@@ -384,22 +398,29 @@ body {
         visibility: hidden
     }
 
-    .text-mail, .text-tel, .text-contact {
+    .text-mail,
+    .text-tel,
+    .text-contact {
         font-size: 1.9rem;
+        font-family: "Larsseit", Arial, sans-serif;
     }
 
-    .text-link, .text-link-two {
+    .text-link,
+    .text-link-two {
         font-size: 1.9rem;
+        font-family: "Larsseit", Arial, sans-serif;
         line-height: 1;
     }
 
     .text-about {
         font-size: 1.4rem;
+        font-family: "Larsseit", Arial, sans-serif;
         line-height: 1.5;
     }
 
     .text-infos {
         font-size: 1.1rem;
+        font-family: "Larsseit", Arial, sans-serif;
         line-height: 1.5;
     }
 
@@ -410,7 +431,7 @@ body {
     .popup-mobile {
         display: flex;
         justify-content: space-between;
-        padding-right: 30px;
+        padding-right: 2px;
     }
 
     .popup-mobile button {
@@ -419,15 +440,8 @@ body {
     }
 
     .hover-logo {
-        font-size: 2.2rem;
-        font-family: "Combine";
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-
-    .hover-logo:hover {
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
+        height: 10px;
+        padding-bottom: 40px;
     }
 
     .hover-text-container {
@@ -446,8 +460,13 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1500px) {
+
+    .hover-logo {
+        padding-bottom: 10px;
+    }
+
     .img-mobile {
-        width:700px;
+        width: 700px;
     }
 
     .titre {
@@ -462,8 +481,12 @@ body {
         font-size: 1.2rem;
     }
 
-    .text-mail, .text-tel, .text-contact, .text-link, .text-link-two {
-        font-size: 2.3rem;
+    .text-mail,
+    .text-tel,
+    .text-contact,
+    .text-link,
+    .text-link-two {
+        font-size: 2.1rem;
     }
 
     .text-about {
