@@ -269,7 +269,7 @@ body {
 
     #logoLoading, h1 {
         font-family: "Capriola", Combine, sans-serif;
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-weight: 600;
         display: flex;
         justify-content: center;
@@ -281,7 +281,7 @@ body {
     }
     
     #loader {
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-weight: 600;
         justify-content: center;
         align-items: center;
@@ -415,10 +415,12 @@ body {
 
     .popup-mobile button {
         display: block;
+        padding-top: 20px;
     }
 
     .hover-logo {
-        font-size: 2rem;
+        font-size: 2.2rem;
+        font-family: "Combine";
         -webkit-transform: scale(1);
         transform: scale(1);
     }
