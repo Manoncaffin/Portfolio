@@ -71,11 +71,11 @@ body {
 
 .carousel-pagination {
     font-size: 1.5rem;
-    font-family: "Capriola", "backOut", Arial, sans-serif;
+    font-family: "PicNic", Arial, sans-serif;
 }
 
 .titre {
-    font-family: "Capriola", "Larsseit", Arial, sans-serif;
+    font-family: "Larsseit", Arial, sans-serif;
     font-size: 1.1rem;
     text-decoration: underline;
     transform: rotate(0deg);
@@ -460,7 +460,8 @@ body {
     }
 
     .carousel-pagination {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        font-family: "PicNic";
     }
 
     .text-mail,
