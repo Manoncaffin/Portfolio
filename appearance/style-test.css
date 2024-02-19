@@ -14,13 +14,12 @@ p {
 
 #logoLoading,
 h1 {
-    /* font-family: "Capriola", "backOut", Arial, sans-serif; */
-    /* font-size: 8vmax; */
-    /* font-weight: 600; */
+    font-family: "Capriola", "backOut", Arial, sans-serif;
+    font-size: 8vmax;
+    font-weight: 600;
     /* margin-bottom: 20px; */
     color: black;
     justify-content: center;
-    height: 100px;
 }
 
 #loader {
@@ -35,8 +34,9 @@ h1 {
     padding-top: 17px;
     padding-bottom: 5px;
     border-bottom: 1px solid black;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.739);
     height: 100px;
+    transition: border-bottom 0.3s ease;
 }
 
 .hover-logo a img {
@@ -61,6 +61,41 @@ h1 {
 }
 
 /* index */
+.project-mobile {
+    margin-top: 70px;
+    background-color: #ffffff;
+}
+
+.scrolling-text-container {
+    overflow: hidden;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .scrolling-text {
+    animation: scrollText 10s linear infinite; 
+    font-size: 1rem;
+    font-family: "Larsseit", "Arial", sans-serif;
+    text-decoration: none;
+  }
+
+  .scrolling-text-two {
+    animation: scrollText 15s linear infinite; 
+    font-size: 1rem;
+    font-family: "Larsseit", "Arial", sans-serif;
+    text-decoration: none;
+  }
+  
+  @keyframes scrollText {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
 body {
     font-family: "Larsseit", Arial, sans-serif;
     font-size: 1.1rem;
@@ -69,13 +104,21 @@ body {
     overflow-x: hidden;
 }
 
-.carousel-pagination {
-    font-size: 1.5rem;
-    font-family: "Capriola", "backOut", Arial, sans-serif;
-}
+.transparent-box {
+    margin-top: 10px;
+    width: fit-content; 
+    height: 60px; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 5px; 
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px black;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.288);
+    height: fit-content;
+  }
 
 .titre {
-    font-family: "Capriola", "Larsseit", Arial, sans-serif;
+    font-family: "Larsseit", Arial, sans-serif;
     font-size: 1.1rem;
     text-decoration: underline;
     transform: rotate(0deg);
@@ -86,33 +129,9 @@ body {
     transform: rotate(-2deg);
 }
 
-.separator,
-.separator-top {
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-}
-
-.separator {
-    border-bottom: 1px solid rgb(0, 0, 0);
-    border-top: 1px solid black;
-}
-
-.background-section {
-    background-color: #e9eef0;
-}
-
 .carousel {
     margin: 0;
     padding: 0;
-}
-
-.carousel-inner {
-    margin: 0;
-    padding: 0;
-}
-
-.carousel-size {
-    flex: 1;
 }
 
 .icons {
@@ -132,7 +151,6 @@ body {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
     }
-
 
 /* infos */
 #contact {
@@ -243,16 +261,6 @@ body {
     }
 }
 
-/* scrollbar */
-::-webkit-scrollbar {
-    width: 0.8em;
-    background-color: rgb(232, 35, 212);
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgb(191, 243, 100);
-}
-
 .carousel-arrows-mobile {
     display: none;
 }
@@ -269,7 +277,11 @@ body {
         height: 80px;
     }
 
-    #logoLoading {
+    #logoLoading,
+    h1 {
+        font-family: "Capriola", Combine, sans-serif;
+        font-size: 2.2rem;
+        font-weight: 600;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -286,26 +298,9 @@ body {
         align-items: center;
     }
 
-    .specific-image {
-        height: fit-content !important;
-    }
-
-    ::-webkit-scrollbar,
-    ::-webkit-scrollbar-thumb {
-        display: none;
-    }
-
-    .navbar {
+    .navbar,
+    .navbar-two {
         height: 60px;
-    }
-
-    .image {
-        height: fit-content;
-    }
-
-    .carousel-size {
-        flex: 0;
-        margin-bottom: 0;
     }
 
     .textHomepage {
@@ -327,23 +322,6 @@ body {
         width: 400px;
     }
 
-    .carousels {
-        height: 350px !important;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        position: relative;
-    }
-
-    .carousel-arrows-mobile {
-        display: block;
-    }
-
-    .carousel-pagination {
-        display: none !important;
-    }
-
     .text-homepage-mobile {
         text-align: center;
     }
@@ -354,21 +332,6 @@ body {
 
     .background-section {
         background-color: white;
-    }
-
-    .separator {
-        border-bottom: none;
-        border-top: none;
-    }
-
-    .carousel-arrows {
-        display: none;
-    }
-
-    .titre {
-        font-size: 0.7rem;
-        font-family: "Capriola", "Larsseit", "Arial", sans-serif;
-        text-decoration: none;
     }
 
     .textHomepage {
@@ -426,12 +389,17 @@ body {
     }
 
     .hover-logo {
-        height: 9px;
+        height: 10px;
         padding-bottom: 40px;
     }
 
     .hover-text-container {
-        font-size: 2.2rem;
+        font-size: 2rem;
+    }
+
+    .hover-text-container:hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
     }
 
     #contact {
