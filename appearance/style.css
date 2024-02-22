@@ -321,6 +321,8 @@ body {
         display: flex;
         justify-content: center;
         width: 400px;
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
 
     .carousels {
